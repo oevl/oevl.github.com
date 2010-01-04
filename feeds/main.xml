@@ -1,0 +1,2094 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Arthur Koziel</title>
+	<link href="http://arthurkoziel.com/feeds\main.xml" rel="self" />
+	<link href="http://arthurkoziel.com/" />
+	<id>http://arthurkoziel.com/feeds\main.xml</id>
+	<updated>2009-07-27T00:00:00Z</updated>
+	<author><name>Arthur Koziel</name></author>
+
+    <entry>
+        <title>Book Review: Django 1.0 Template Development</title>
+        <link href="http://arthurkoziel.com/2009/07/27/book-review-django-10-template-development/"/>
+        <updated>2009-07-27T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2009-07-27:/2009/07/27/book-review-django-10-template-development/</id>
+        <content type="html" xml:base="/2009/07/27/book-review-django-10-template-development/">&lt;a class=&#34;reference external image-reference&#34; href=&#34;http://www.packtpub.com/django-1.0-template-design-practical-guide/book&#34;&gt;&lt;img alt=&#34;Django 1.0 Template Development Book Cover&#34; class=&#34;right&#34; src=&#34;django10templatedev.jpg&#34; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.packtpub.com/django-1.0-template-design-practical-guide/book&#34;&gt;The book&lt;/a&gt; is a comprehensive and practical guide of &lt;a class=&#34;reference external&#34; href=&#34;http://www.djangoproject.com/&#34;&gt;Django&#39;s&lt;/a&gt; template
+system aimed at beginners. Even though the author expects some experience
+with Django or Python I don’t think that’s necessarily the case. Knowledge
+about data structures like Python dictionaries is explained along the way and
+the template syntax is generally easy to understand. It should be noted though
+that the book doesn’t include an installation guide. A working development
+environment with Python and Django installed is required.&lt;/p&gt;
+&lt;p&gt;The writing style is clear and easily readable. There are also a lot of code
+examples to make things clear. Even though the 11 chapters are mostly
+structured around a follow-along example site it doesn’t need to be read
+sequentially.
+Especially the chapters at the end (Pagination, Internationalization, Cache)
+can also be read independently of the others.&lt;/p&gt;
+&lt;p&gt;With &lt;a class=&#34;reference external&#34; href=&#34;http://www.djangoproject.com/weblog/2009/jul/21/rc/&#34;&gt;Django 1.1 around the corner&lt;/a&gt; a book about version 1.0 of
+the framework might seem a little outdated. But don’t worry, the API will
+remain stable until Django 2.0.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;content&#34;&gt;
+&lt;h2&gt;Content&lt;/h2&gt;
+&lt;p&gt;The book starts out by explaining the syntax of the template system and
+illustrating how it fits into the big picture of handling requests in Django.
+The following two chapters then go into more detail about how URLs are mapped
+to views, views are structured and values are passed to the templates.&lt;/p&gt;
+&lt;p&gt;Chapter 4 is a reference of all built-in Tags and Filters. The author decided
+to include it because the &lt;a class=&#34;reference external&#34; href=&#34;http://docs.djangoproject.com/en/dev/ref/templates/builtins/#ref-templates-builtins&#34;&gt;online documentation&lt;/a&gt; didn’t provide
+examples of usage and syntax for all of them.&lt;/p&gt;
+&lt;p&gt;The next two chapters focus on template configuration, loading and inheritance.
+After an explanation of template loaders and the idea behind the extends- and
+block-tag the author goes on to show how alternative templates can be served
+by using template overrides and custom Middleware.&lt;/p&gt;
+&lt;p&gt;Finally, there are chapters on pagination, customizing the admin, caching and
+internationalization. Except for the, very detailed, pagination chapter the
+other don&#39;t go into as much depth as the online documentation but nonetheless
+provide a good overview of the basics. For example, the chapter about
+Internationalization only shows how strings in templates can be marked as
+translatable and message files can be generated. It still doesn’t go into
+as much depth as the &lt;a class=&#34;reference external&#34; href=&#34;http://docs.djangoproject.com/en/dev/topics/i18n/#topics-i18n&#34;&gt;online documentation about i18n&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;verdict&#34;&gt;
+&lt;h2&gt;Verdict&lt;/h2&gt;
+&lt;p&gt;In my opinion, the book is missing a chapter about Forms. Most people dealing
+with templates in Django will at one point or another also want to work
+with Forms, so this would’ve been a good addition.&lt;/p&gt;
+&lt;p&gt;With that said, I’d recommend the book for web designers who are working with
+the template layer but have little or no experience with Django. It doesn’t go
+into much depth but covers enough topics to give the reader a good
+understanding of Django in general.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+        <title>Book Review: Pro Django</title>
+        <link href="http://arthurkoziel.com/2009/03/15/book-review-pro-django/"/>
+        <updated>2009-03-15T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2009-03-15:/2009/03/15/book-review-pro-django/</id>
+        <content type="html" xml:base="/2009/03/15/book-review-pro-django/">&lt;a class=&#34;reference external image-reference&#34; href=&#34;http://www.apress.com/book/view/1430210478&#34;&gt;&lt;img alt=&#34;Pro Django Book Cover&#34; class=&#34;right&#34; src=&#34;prodjango.jpg&#34; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.apress.com/book/view/1430210478&#34;&gt;Pro Django&lt;/a&gt; is a  book for developers who want to deepen their knowledge
+of how &lt;a class=&#34;reference external&#34; href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt; works.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;content&#34;&gt;
+&lt;h2&gt;Content&lt;/h2&gt;
+&lt;p&gt;After the first chapter explains the fundamental &lt;a class=&#34;reference external&#34; href=&#34;http://docs.djangoproject.com/en/dev/misc/design-philosophies/&#34;&gt;design philosophies&lt;/a&gt;,
+the second chapter (&amp;quot;Django is Python&amp;quot;) explicates important Python techniques
+the framework relies on. Metaclasses, Augmenting Functions or Descriptors are
+some of them.&lt;/p&gt;
+&lt;p&gt;They are explained clearly and with a lot of understandable code examples.
+Take Metaclasses for example. The book explains them by using Django&#39;s
+declarative syntax as a sample. I find that by knowing how Django uses them
+it&#39;s much easier to understand Metaclasses, as I now have a good practical
+example to refer to.&lt;/p&gt;
+&lt;p&gt;The following chapters go into modules of the framework, which are &amp;quot;Models&amp;quot;,
+&amp;quot;URLs and Views&amp;quot;, &amp;quot;Forms&amp;quot;, &amp;quot;Templates&amp;quot; and &amp;quot;HTTP&amp;quot;. The basics from the
+&lt;a class=&#34;reference external&#34; href=&#34;http://docs.djangoproject.com/en/dev/&#34;&gt;official documentation&lt;/a&gt; are skipped or just briefly mentioned as this book
+goes into more depth.&lt;/p&gt;
+&lt;p&gt;Parsing the content of a template is a good example for this. The book does
+an excellent job explaining every single step of how a raw string is processed
+through the Lexer and Parser to a set of Python objects that can be rendered.
+I always wondered about nodes and tokens when writing template tags.
+After reading the chapter about templates I finally understood the whole
+process and can now think of even more possible uses.&lt;/p&gt;
+&lt;p&gt;Chapter 8 (&amp;quot;Backend Protocols&amp;quot;) describes Django&#39;s generic API for features
+like databases, authentication or storage. By implementing the protocol of an
+API it&#39;s easy to write backends that, for example, can enable Django to use
+another database engine or use another storage backend (like &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/s3/&#34;&gt;Amazon S3&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Next, the &amp;quot;Common Tools&amp;quot; chapter shows lesser known tools and features of
+Django. It explains which core exception should be thrown in which situation,
+the data structures which are available (MergeDict, MultiValueDict, SortedDict)
+and other interesting things which help keeping the code consistent and easier
+to maintain.&lt;/p&gt;
+&lt;p&gt;The last two chapters &amp;quot;Coordinating Applications&amp;quot; and &amp;quot;Enhancing Applications&amp;quot;
+go step-by-step through the process of creating a Real Estate project and
+enhancing it using the techniques described in this book. The latter chapter
+made me realize how handy all the previously explained low level methods are
+when developing reuseable 3rd party applications for Django. It enables a model
+to keep historical records of its contents by adding just a single line to the
+original application.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;conclusion&#34;&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Overall I found this book to be a great read. I will keep it around as a
+reference for further development and recommend it to every Django developer
+who wants to take a look behind the scenes of Django.&lt;/p&gt;
+&lt;p&gt;Since the book was written for Django 1.0 I think that some people are holding
+back on buying it because of the Django 1.1 release. But there&#39;s no need to
+worry. Backwards-incompatible changes will not happen in the 1.x branch and
+the API will remain stable until Django 2.0. This book should be safe to use
+with every Django 1.x release.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+        <title>Update on GnuPG for Mail.app in Leopard</title>
+        <link href="http://arthurkoziel.com/2009/01/28/update-gnupg-mailapp-leopard/"/>
+        <updated>2009-01-28T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2009-01-28:/2009/01/28/update-gnupg-mailapp-leopard/</id>
+        <content type="html" xml:base="/2009/01/28/update-gnupg-mailapp-leopard/">&lt;p&gt;Quite a few things happened since I wrote the &lt;a href=&#34;http://arthurkoziel.com/2008/06/10/how-to-gnupg-for-mailapp-in-leopard/&#34;&gt;GnuPG for Mail.app in Leopard how to&lt;/a&gt;, so I thought it would be time for a little update:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.sente.ch/software/GPGMail/English.lproj/GPGMail.html&#34;&gt;GPGMail 1.2.0&lt;/a&gt; was released in late December and is now stable for 
+   Mac OS X Leopard. &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://macgpg2.wiki.sourceforge.net/&#34;&gt;MacGPG2&lt;/a&gt; includes GnuPG 2 as opposed to 
+   &lt;a href=&#34;http://macgpg.wiki.sourceforge.net/&#34;&gt;MacGPG&lt;/a&gt; which includes version 1.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sourceforge.net/project/showfiles.php?group_id=248469&amp;amp;package_id=304467&#34;&gt;Pinentry-mac&lt;/a&gt;, the native pinentry program for Mac OS X, is 
+   now available as a separate download.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;Pinentry-mac dialog&#34; src=&#34;http://media.arthurkoziel.com/img/pinentry_mac_2009-01-28.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;If you want to install GPGMail but don&#39;t have &lt;a href=&#34;http://gnupg.org/&#34;&gt;GnuPG&lt;/a&gt; 
+installed, just pick up MacGPG2 and everything should work fine. &lt;br&gt;
+If you already have GnuPG installed and don&#39;t want to have a second version on your system, 
+just install Pinentry-mac and specify the path to the application in 
+&lt;code&gt;~/.gnupg/gpg-agent.conf&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;pinentry-program /usr/local/libexec/pinentry-mac.app/Contents/MacOS/pinentry-mac&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If the password dialog is annoying you, check out this guide on &lt;a href=&#34;http://cactuswax.net/articles/gpg-agent-with-macports-on-os-x.txt&#34;&gt;how to install gpg-agent with MacPorts on OS X&lt;/a&gt;.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Passing MEDIA_URL in Django's 500 error view</title>
+        <link href="http://arthurkoziel.com/2009/01/15/passing-mediaurl-djangos-500-error-view/"/>
+        <updated>2009-01-15T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2009-01-15:/2009/01/15/passing-mediaurl-djangos-500-error-view/</id>
+        <content type="html" xml:base="/2009/01/15/passing-mediaurl-djangos-500-error-view/">&lt;p&gt;The default HTTP 500 error view in Django doesn&#39;t pass the RequestContext to
+templates and thus variables like MEDIA_URL will not be available. 
+If, for example, your error 500 template extends your site&#39;s base template, 
+the URI to the CSS style sheets won&#39;t be right.&lt;/p&gt;
+&lt;p&gt;Django doesn&#39;t include the RequestContext per default since in case of an HTTP
+500 error it&#39;s better to 
+pass less variables to lessen the chance of additional errors.
+However, changing the default error 500 view in Django to pass the 
+MEDIA_URL in the context is easy. &lt;/p&gt;
+&lt;h3&gt;Modifying the default handler&lt;/h3&gt;
+&lt;p&gt;We first need to write a new view which will replace the default one. The
+following is identical to the default view but with the MEDIA_URL added
+to the context:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;from django.conf import settings
+from django import http
+from django.template import Context, loader
+
+def server_error(request, template_name=&#39;500.html&#39;):
+    &amp;quot;&amp;quot;&amp;quot;
+    500 error handler.
+
+    Templates: `500.html`
+    Context:
+        MEDIA_URL
+            Path of static media (e.g. &amp;quot;media.example.org&amp;quot;)
+    &amp;quot;&amp;quot;&amp;quot;
+    t = loader.get_template(template_name) # You need to create a 500.html template.
+    return http.HttpResponseServerError(t.render(Context({
+        &#39;MEDIA_URL&#39;: settings.MEDIA_URL
+    })))&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The best place for this view is the &lt;em&gt;views.py&lt;/em&gt; file in the project&#39;s root
+directory.&lt;/p&gt;
+&lt;p&gt;To tell Django to use our view for the HTTP 500 error rather than 
+the default one, we need to set the &lt;em&gt;handler500&lt;/em&gt; variable in the &lt;em&gt;urls.py&lt;/em&gt;
+file to point to the new view:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;handler500 = &#39;projectname.views.server_error&#39;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And that&#39;s basically it, we&#39;ve replaced the default error 500 view with our
+own one that passes the MEDIA_URL in the context. &lt;/p&gt;
+&lt;p&gt;To see the error 500 page in action, we just need to create a url pattern
+for it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;if settings.DEBUG:
+    urlpatterns += patterns(&#39;&#39;,
+        (r&#39;^500/$&#39;, &#39;projectname.views.server_error&#39;),
+    )&lt;/pre&gt;&lt;/div&gt;</content>
+    </entry>
+    <entry>
+        <title>yml2tex 1.2 released</title>
+        <link href="http://arthurkoziel.com/2009/01/05/yml2tex-12-released/"/>
+        <updated>2009-01-05T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2009-01-05:/2009/01/05/yml2tex-12-released/</id>
+        <content type="html" xml:base="/2009/01/05/yml2tex-12-released/">&lt;p&gt;yml2tex is a simple Python script which generates LaTeX code for &lt;a href=&#34;http://latex-beamer.sourceforge.net/&#34;&gt;LaTeX Beamer&lt;/a&gt; presentations out of YAML files. &lt;/p&gt;
+&lt;p&gt;If you prefer creating presentations with the &lt;a href=&#34;http://latex-beamer.sourceforge.net/&#34;&gt;LaTeX Beamer class&lt;/a&gt; but have a hard time remembering LaTeX syntax (like me) then this project is for you.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;presentation&#34; src=&#34;http://media.arthurkoziel.com/img/yml2tex_pres.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;See the &lt;a href=&#34;http://code.google.com/p/yml2tex/&#34;&gt;project page at Google Code&lt;/a&gt; for more information about yml2tex or the &lt;a href=&#34;http://github.com/arthurk/yml2tex/tree/1.2/CHANGELOG&#34;&gt;CHANGELOG&lt;/a&gt; file in the Git repository for a full list of changes. The most important ones are:&lt;/p&gt;
+&lt;h3&gt;Better Syntax&lt;/h3&gt;
+&lt;p&gt;Previous versions required dashes before each section, subsection or frame due to the fact that &lt;a href=&#34;http://pyyaml.org/&#34;&gt;PyYAML&lt;/a&gt; maps keys to Python dictionaries (correct according to the YAML spec) which don&#39;t have an element order—the presentation would be a mess as everything would be mixed up. However, if you put a dash before each line the key is mapped as a Python list and therefore has an order. &lt;/p&gt;
+&lt;p&gt;Version 1.2 now comes with a custom Composer for PyYAML which eliminates the need for dashes by mapping keys to tuples with two elements (pairs) instead of dictionaries.&lt;/p&gt;
+&lt;p&gt;So, instead of writing:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;- Introduction:
+  - Features:
+    - General:
+      - Easy &amp;amp; fast to generate simple presentations
+      - Adds a nice default style to the document
+      - Generates a TOC out of sections/subsections
+      - Separates content from presentation&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You can now write:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;Introduction:
+  Features:
+    General:
+      - Easy &amp;amp; fast to generate simple presentations
+      - Adds a nice default style to the document
+      - Generates a TOC out of sections/subsections
+      - Separates content from presentation&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Metadata&lt;/h3&gt;
+&lt;p&gt;It is now possible to specify metadata in the YAML file itself:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;metas:
+  outline: 0
+  highlight_style: borland
+
+Introduction:
+  Why?:
+    Why?:
+      - Creating Presentations in PowerPoint/Keynote etc. takes too long:
+        - No automatic TOC generation
+        - No Code Highlighting
+        - Applications not for free
+        - Proprietary formats&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You can, for example, disable the automatically generated outline or choose another Pygments highlighting style for your code.
+&lt;a href=&#34;http://github.com/arthurk/yml2tex/tree/1.2/README.markdown&#34;&gt;Take a look at the README file&lt;/a&gt; for a list of all supported values.&lt;/p&gt;
+&lt;h3&gt;Auto-Escaping&lt;/h3&gt;
+&lt;p&gt;Special characters in LaTeX are another thing I personally can&#39;t remember. I always get an error during the compile, have to open up the TeX file and escape the character which caused the error just to find that I forgot to escape another character later on.&lt;/p&gt;
+&lt;p&gt;Version 1.2 now fixes this by auto-escaping LaTeX special characters (&lt;strong&gt;&amp;amp;&lt;/strong&gt;, &lt;strong&gt;%&lt;/strong&gt;, &lt;strong&gt;#&lt;/strong&gt;, &lt;strong&gt;_&lt;/strong&gt;, &lt;strong&gt;{&lt;/strong&gt; and &lt;strong&gt;}&lt;/strong&gt;) in section, subsection, frame titles and item text.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Installing additional files with distutils in Python 2.3</title>
+        <link href="http://arthurkoziel.com/2008/12/31/including-additional-files-distutils-python-23/"/>
+        <updated>2008-12-31T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-12-31:/2008/12/31/including-additional-files-distutils-python-23/</id>
+        <content type="html" xml:base="/2008/12/31/including-additional-files-distutils-python-23/">&lt;p&gt;Installing additional files with distutils in Python 2.3 isn&#39;t as easy as
+one expects it to be because the &#34;data_files&#34; attribute installs directly into
+&#34;sys.prefix&#34; and not the package specific directory in &#34;site-packages&#34;,
+where one would expect such data.&lt;/p&gt;
+&lt;p&gt;Python 2.4 introduced the &#34;package_data&#34; attribute in distutils
+which should be used instead, as it installs the data in the correct directory.
+However, since there are still many packages around
+which support Python 2.3, I thought I would write down this little advice.&lt;/p&gt;
+&lt;p&gt;To include additional files with distutils in Python 2.3,
+the &#34;&lt;a href=&#34;http://www.python.org/doc/2.3.5/dist/setup-script.html#SECTION000350000000000000000&#34;&gt;data_files&lt;/a&gt;&#34; argument must be used in the setup script:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;from distutils.core import setup
+
+setup(name=&#39;foobar&#39;,
+      version=&#39;1.0&#39;,
+      data_files=[(&#39;docs&#39;, [&#39;README&#39;]),],
+)&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The sequence consists of pairs that specify the target directory
+and files that should be installed there. So in the above example,
+the &#34;README&#34; file would be installed into the &#34;docs&#34; directory.&lt;/p&gt;
+&lt;p&gt;Executing the above script in a virtual environment called &#34;testenv&#34;
+will result in the following:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;copying README-&amp;gt; /Users/arthurk/.virtualenvs/testenv/docs&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If other setup scripts would install a &#34;README&#34; file the same way,
+the file would be overwritten with each successive installation.&lt;/p&gt;
+&lt;p&gt;The problem, of course, isn&#39;t new. Lonnie Princehouse has &lt;a href=&#34;http://groups.google.com/group/comp.lang.python/browse_thread/thread/35ec7b2fed36eaec/2105ee4d9e8042cb&#34;&gt;posted
+a simple solution&lt;/a&gt; to this problem over four years ago.&lt;/p&gt;
+&lt;p&gt;Distutils has a variable called &#34;INSTALL_SCHEMES&#34; where the paths
+of the target directories for each platform are specified.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;INSTALL_SCHEMES: [&#39;mac&#39;, &#39;unix_prefix&#39;, &#39;os2&#39;, &#39;nt&#39;, &#39;unix_home&#39;]
+INSTALL_SCHEMES[&#39;mac&#39;]: {&#39;purelib&#39;: &#39;$base/Lib/site-packages&#39;,
+                         &#39;headers&#39;: &#39;$base/Include/$dist_name&#39;,
+                         &#39;scripts&#39;: &#39;$base/Scripts&#39;,
+                         &#39;data&#39;: &#39;$base&#39;,
+                         &#39;platlib&#39;: &#39;$base/Lib/site-packages&#39;}&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The proposed solution sets the installation path of data files to to the path
+of packages e.g. the &#34;site-packages&#34; directory.&lt;/p&gt;
+&lt;p&gt;That and the addition of a package specific identifier (can be the same value
+as the &#34;name&#34; attribute, otherwise a &#34;docs&#34; directory would be created in 
+&#34;site-packages&#34;) result in the following setup script.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;from distutils.core import setup
+from distutils.command.install import INSTALL_SCHEMES
+
+for scheme in INSTALL_SCHEMES.values():
+    scheme[&#39;data&#39;] = scheme[&#39;purelib&#39;]
+
+setup(name=&#39;foobar&#39;,
+      version=&#39;1.0&#39;,
+      data_files=[(&#39;foobar/docs&#39;, [&#39;README&#39;]),],
+)&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Executing the above script will copy the data into the proper directory.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;copying README-&amp;gt; /Users/arthurk/.virtualenvs/testenv/lib/python2.5/site-packages/foobar/docs&lt;/pre&gt;&lt;/div&gt;</content>
+    </entry>
+    <entry>
+        <title>Translating the Django documentation into German</title>
+        <link href="http://arthurkoziel.com/2008/12/14/translating-django-documentation-german/"/>
+        <updated>2008-12-14T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-12-14:/2008/12/14/translating-django-documentation-german/</id>
+        <content type="html" xml:base="/2008/12/14/translating-django-documentation-german/">&lt;p&gt;The German Django documentation got outdated after the original documentation
+was refactored because there were too many changes to track. Now, to follow
+the new structure, we started to translate and reorganize the documentation
+from scratch.&lt;/p&gt;
+&lt;p&gt;Help is always appreciated. Here&#39;s a little guide if you want to help
+translating the Django documentation but don&#39;t know how to start.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fork the &lt;a href=&#34;http://github.com/zerok/django-docs-de/tree/master&#34;&gt;main django-de-docs&lt;/a&gt; repository.&lt;/strong&gt; We
+    mostly work in the &#34;releases/1.0.X&#34; branch. If you are unsure about working
+    with Git&#39;s remote branches, see below for a quick guide.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://code.djangoproject.com/browser/django/tags/releases/1.0.2/docs/&#34;&gt;Select a document&lt;/a&gt; you want to translate.&lt;/strong&gt;
+    &lt;a href=&#34;http://github.com/zerok/django-docs-de/tree/releases/1.0.X&#34;&gt;Browse the repository&lt;/a&gt; to see which documents are already
+    translated. The &lt;a href=&#34;http://github.com/zerok/django-docs-de/wikis/wer-macht-was&#34;&gt;&#34;Wer macht was?&#34;&lt;/a&gt;-Wikipage shows what people
+    are currently working on.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Translate.&lt;/strong&gt;
+    &lt;a href=&#34;https://www.django-de.org/trac/browser/docs/translations/trunk/&#34;&gt;Browse the old subversion repository&lt;/a&gt; and look if your document
+    has been translated before the docs-refactoring. You might reuse some
+    parts of the old translation. If you&#39;re unsure about a translation of
+    a technical term, take a look at the &lt;a href=&#34;https://www.django-de.org/trac/wiki/PortalÜbersetzung/Glossar&#34;&gt;glossary&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Submit your translation.&lt;/strong&gt;
+    Please make sure to commit your changes in the &#34;releases/1.0.X&#34; branch.
+    After you&#39;ve pushed into your forked repository, you can send
+    &lt;a href=&#34;http://github.com/zerok&#34;&gt;zerok&lt;/a&gt; a pull request.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Also, feel free to submit corrections to existing documents.&lt;/p&gt;
+&lt;h3&gt;Working with Git remote branches&lt;/h3&gt;
+&lt;p&gt;Adding the original repository as a remote will make later operations a little 
+easier as you can refer to it with an identifier instead of providing the
+repository url. The following command will use &#34;upstream&#34; as an identifier.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;git remote add upstream git://github.com/zerok/django-docs-de.git&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;As I already mentioned, most work happens in the &#34;releases/1.0.X&#34; branch.
+Create a same-named local branch which will track (push and pull) from the
+remote origin.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;git branch --track releases/1.0.X origin/releases/1.0.X&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now you can checkout the branch and start working. Once you&#39;ve finished,
+simple commit your changes and &#34;git push&#34; to your remote branch.&lt;/p&gt;
+&lt;h3&gt;Upstream Changes&lt;/h3&gt;
+&lt;p&gt;If changes were applied upstream and you want to merge them into your local 
+branch, you just need to pull from upstream (which will fetch and merge
+the data), eventually resolve conflicts, and push it to your remote repository.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;git pull upstream releases/1.0.X
+git push&lt;/pre&gt;&lt;/div&gt;</content>
+    </entry>
+    <entry>
+        <title>Social software graph</title>
+        <link href="http://arthurkoziel.com/2008/11/23/social-software-graph/"/>
+        <updated>2008-11-23T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-11-23:/2008/11/23/social-software-graph/</id>
+        <content type="html" xml:base="/2008/11/23/social-software-graph/">&lt;p&gt;After &lt;a href=&#34;http://www.amk.ca/diary/2008/11/graph_of_my_social_software.html&#34;&gt;seeing&lt;/a&gt; some &lt;a href=&#34;http://sayspy.blogspot.com/2008/11/social-software-graph.html&#34;&gt;social software graphs&lt;/a&gt;, I made one for myself today. I basically  tried to remember every service I had registered to and linked them together. &lt;a href=&#34;http://friendfeed.com/&#34;&gt;FriendFeed&lt;/a&gt; does a good job aggregating most of them.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Social software graph&#34; src=&#34;http://media.arthurkoziel.com/img/nodebox_graph.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The graph was done using &lt;a href=&#34;http://nodebox.net/&#34;&gt;NodeBox&lt;/a&gt;. Here&#39;s the source code for the graph:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;from random import uniform
+graph = ximport(&amp;quot;graph&amp;quot;)
+
+size(475, 400)
+
+g = graph.create(distance=0.5)
+
+for service in (&#39;FriendFeed&#39;, &#39;Twitter&#39;, &#39;Hacker News&#39;, &#39;Last.fm&#39;, &#39;Readernaut&#39;,
+                &#39;Delicious&#39;, &#39;Google Reader&#39;, &#39;Django People&#39;, &#39;Arthur Koziel’s Blog&#39;,
+                &#39;Symfoniac&#39;, &#39;Djangoniac&#39;, &#39;Ma.gnolia&#39;, &#39;Flickr&#39;, &#39;Upcoming&#39;, &#39;Reddit&#39;):
+    g.add_node(service, radius=5)
+
+# connect services with FriendFeed
+for service in (&#39;Twitter&#39;, &#39;Last.fm&#39;, &#39;Readernaut&#39;, &#39;Delicious&#39;, &#39;Google Reader&#39;, &#39;Flickr&#39;,
+                &#39;Upcoming&#39;, &#39;Arthur Koziel’s Blog&#39;):
+    g.add_edge(service, &amp;quot;FriendFeed&amp;quot;, length=uniform(50,100))
+
+g.styles.apply()
+g.solve()
+g.draw()&lt;/pre&gt;&lt;/div&gt;</content>
+    </entry>
+    <entry>
+        <title>Working with virtualenv</title>
+        <link href="http://arthurkoziel.com/2008/10/22/working-virtualenv/"/>
+        <updated>2008-10-22T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-10-22:/2008/10/22/working-virtualenv/</id>
+        <content type="html" xml:base="/2008/10/22/working-virtualenv/">&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://pypi.python.org/pypi/virtualenv&#34;&gt;Virtualenv&lt;/a&gt; is a tool to build isolated Python environments. It&#39;s
+a great way to quickly test new libraries without cluttering your global
+site-packages or run multiple projects on the same machine which depend on a
+particular library but not the same version of the library.&lt;/p&gt;
+&lt;p&gt;You can, for example, install version X of a library in one environment and
+version Z of the same library in another environment, without one interfering
+the other. Each environment provides its own Python executable and
+site-packages directory (which is not shared between environments).&lt;/p&gt;
+&lt;p&gt;To install virtualenv, simply easy_install it with the following command:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 13)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    easy_install virtualenv
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Once virtualenv is installed, you can use the &lt;em&gt;virtualenv&lt;/em&gt; command to create
+virtual environments. The following command will create an environment
+called &amp;quot;&lt;em&gt;foobar&lt;/em&gt;&amp;quot;:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 21)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    virtualenv foobar
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;You can activate the environment by sourcing its &lt;em&gt;activate&lt;/em&gt; script, which is
+located in the environment&#39;s &lt;em&gt;bin/&lt;/em&gt; directory:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 28)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    source foobar/bin/activate
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;The script prepends the name of the currently activated environment to the
+&lt;em&gt;$PS1&lt;/em&gt; of your shell and sets the environment&#39;s site-packages directory as
+the default one.&lt;/p&gt;
+&lt;p&gt;If you install a package in your virtual environment, you&#39;ll see that
+executable scripts are placed in &lt;em&gt;foobar/bin/&lt;/em&gt; and eggs in
+&lt;em&gt;foobar/lib/python2.X/site-packages/&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 40)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    easy_install yolk
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://pypi.python.org/pypi/yolk&#34;&gt;Yolk&lt;/a&gt; is a small command line tool which can, among other things,
+list the currently installed Python packages on your system:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 47)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    yolk -l
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;As you see, virtualenv will inherit the packages from the system&#39;s default
+site-packages directory. This is especially useful when relying on certain
+packages being available, so you don&#39;t have to go through installing them in
+every environment.&lt;/p&gt;
+&lt;p&gt;I try to keep my system&#39;s site-packages directory fairly minimal and only put
+packages there which I use in nearly every project. It currently consists of
+database interfaces like &lt;em&gt;MySQLdb&lt;/em&gt; or &lt;em&gt;psycopg2&lt;/em&gt; as well as &lt;em&gt;setuptools&lt;/em&gt; and,
+of course, &lt;em&gt;virtualenv&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;However, you can also change this by passing the &lt;em&gt;--no-site-packages&lt;/em&gt; option
+to virtualenv when creating a virtual environment. This will create a clean
+environment without inheriting the packages from your global site-packages
+directory:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 66)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    virtualenv --no-site-packages foobar
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;To leave an environment, simply run &lt;cite&gt;deactivate&lt;/cite&gt;:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 72)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    deactivate
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Try executing the &lt;em&gt;yolk&lt;/em&gt; command now: it won&#39;t work because the package was
+installed only in your virtual environment. Once you reactivate your
+environment it will be available again.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;virtualenvwrapper&#34;&gt;
+&lt;h2&gt;Virtualenvwrapper&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.doughellmann.com/projects/virtualenvwrapper/&#34;&gt;Virtualenvwrapper&lt;/a&gt; is a set of bash functions created
+by &lt;a class=&#34;reference external&#34; href=&#34;http://www.doughellmann.com/&#34;&gt;Doug Hellmann&lt;/a&gt; to keep virtual environments manageable.
+It expects your environments to be in one directory and provides useful
+commands to &lt;em&gt;create&lt;/em&gt;, &lt;em&gt;remove&lt;/em&gt; and &lt;em&gt;switch&lt;/em&gt; between environments from
+anywhere in your cli.&lt;/p&gt;
+&lt;p&gt;The installation is easy since it&#39;s just a bash script which needs to be
+sourced, but don&#39;t forget to set the &lt;em&gt;WORKON_HOME&lt;/em&gt; variable before sourcing
+the script in your &lt;em&gt;.bash_profile&lt;/em&gt; or &lt;em&gt;.bash_rc&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 93)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    WORKON_HOME=$HOME/.virtualenvs
+    source /path/to/virtualenvwrapper_bashrc
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;The &lt;em&gt;mkvirtualenv&lt;/em&gt; command will create an environment and the &lt;em&gt;rmvirtualenv&lt;/em&gt;
+command will delete an environment. You can activate or switch to an
+environment by using the &lt;em&gt;workon&lt;/em&gt; command.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;bootstrapping-environments&#34;&gt;
+&lt;h2&gt;Bootstrapping environments&lt;/h2&gt;
+&lt;p&gt;Virtualenv has a few hooks which can be used by a custom bootstrap script.
+This can be useful to automatically install a few additional packages after
+creating a virtual environment.&lt;/p&gt;
+&lt;p&gt;If you&#39;re doing a lot of &lt;a class=&#34;reference external&#34; href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt; projects for example, you might want
+to create a bootstrap script which creates a virtual environment and installs
+Django for you—it probably saves you some time and avoids boring repetitive
+tasks. Or you can distribute the script among the developers of your project,
+which then always use the script to set up the environment. This would not only
+make sure that everyone has the same libraries installed but would also allow a
+quick set up of a development/production environment.&lt;/p&gt;
+&lt;p&gt;In this small example, the bootstrap script will create a virtual environment
+and easy_install yolk for you:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 120)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: python
+
+    import virtualenv, textwrap
+    output = virtualenv.create_bootstrap_script(textwrap.dedent(&amp;quot;&amp;quot;&amp;quot;
+    def after_install(options, home_dir):
+        subprocess.call([join(home_dir, &#39;bin&#39;, &#39;easy_install&#39;),
+                        &#39;yolk&#39;])
+    &amp;quot;&amp;quot;&amp;quot;))
+    print output
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;You basically pass a string with the additional Python code to the
+&lt;em&gt;create_bootstrap_script&lt;/em&gt; function of virtualenv. It will then return
+the modified virtualenv script with your additional code inserted. You can then
+use the modified script to create virtual environments just like the
+original one.&lt;/p&gt;
+&lt;p&gt;To test the above bootstrap script, paste the code into a file, run it and save
+the output to a new file:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 139)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    python main.py &amp;gt; venv-yolk.py
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;The &lt;em&gt;venv-yolk.py&lt;/em&gt; file can now be used just like the original virtualenv
+script. In fact, it is the virtualenv script with the above &lt;em&gt;after_install&lt;/em&gt;
+function added:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 147)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    python venv-yolk.py foobar
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+        <title>yml2tex 1.1 released</title>
+        <link href="http://arthurkoziel.com/2008/10/16/yml2tex-11-released/"/>
+        <updated>2008-10-16T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-10-16:/2008/10/16/yml2tex-11-released/</id>
+        <content type="html" xml:base="/2008/10/16/yml2tex-11-released/">&lt;p&gt;I just released version 1.1 of &lt;a href=&#34;http://code.google.com/p/yml2tex/&#34;&gt;yml2tex&lt;/a&gt;. The biggest change is that
+the code for the syntax highlighting is now passed directly to
+&lt;a href=&#34;http://pygments.org/&#34;&gt;pygments&lt;/a&gt;, which means that a dependency on &lt;a href=&#34;http://www.zedshaw.com/projects/idiopidae/&#34;&gt;idiopidae&lt;/a&gt;
+and &lt;a href=&#34;http://www.zedshaw.com/projects/zapps/index.html&#34;&gt;zapps&lt;/a&gt; is no longer needed.&lt;/p&gt;
+&lt;p&gt;As of version 1.1 the dependencies are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://pyyaml.org/&#34;&gt;PyYAML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://pygments.org/&#34;&gt;Pygments&lt;/a&gt; (for syntax highlighting)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I also added a &lt;code&gt;setup.py&lt;/code&gt; and uploaded the package to the
+&lt;a href=&#34;http://pypi.python.org/pypi&#34;&gt;Python Package Index&lt;/a&gt;, so you can install the package
+using &lt;code&gt;easy_install&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;easy_install yml2tex&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;There&#39;s also now a script being installed in &lt;code&gt;bin/&lt;/code&gt; which makes
+it possible to execute the script from anywhere in your python environment:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;yml2tex foobar.yml&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;So that&#39;s it. Feel free to file in bug reports or enhancement requests on
+the &lt;a href=&#34;http://code.google.com/p/yml2tex/&#34;&gt;project&#39;s Google Code website&lt;/a&gt;.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>virtualenvwrapper bash completion</title>
+        <link href="http://arthurkoziel.com/2008/10/11/virtualenvwrapper-bash-completion/"/>
+        <updated>2008-10-11T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-10-11:/2008/10/11/virtualenvwrapper-bash-completion/</id>
+        <content type="html" xml:base="/2008/10/11/virtualenvwrapper-bash-completion/">&lt;p&gt;I started migrating my projects to &lt;a href=&#34;http://pypi.python.org/pypi/virtualenv&#34;&gt;virtualenv&lt;/a&gt; and found
+&lt;a href=&#34;http://www.doughellmann.com/projects/virtualenvwrapper/&#34;&gt;virtualenvwrapper&lt;/a&gt; to be a really useful script—it helps
+keeping the environments manageable.&lt;/p&gt;
+&lt;p&gt;However, there was one thing I missed in virtualenvwrapper
+(especially when using the &lt;code&gt;workon&lt;/code&gt; command all day long): bash completion.
+So, here&#39;s a script which will solve this small problem:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;_virtualenvs()
+{
+    local cur=&amp;quot;${COMP_WORDS[COMP_CWORD]}&amp;quot;
+    COMPREPLY=( $(compgen -W &amp;quot;`ls $WORKON_HOME`&amp;quot; -- ${cur}) )
+}
+
+complete -o default -o nospace -F _virtualenvs workon
+complete -o default -o nospace -F _virtualenvs rmvirtualenv&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The choices are generated from the directory listing of your
+&lt;code&gt;$WORKON_HOME&lt;/code&gt; directory.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>The "HTTP response with specific status code" app</title>
+        <link href="http://arthurkoziel.com/2008/09/29/the-http-response-with-specific-status-code-app/"/>
+        <updated>2008-09-29T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-09-29:/2008/09/29/the-http-response-with-specific-status-code-app/</id>
+        <content type="html" xml:base="/2008/09/29/the-http-response-with-specific-status-code-app/">&lt;p&gt;I&#39;ve recently found the need to test how my applications behave against HTTP responses with different &lt;a href=&#34;http://en.wikipedia.org/wiki/List_of_HTTP_status_codes&#34;&gt;status codes&lt;/a&gt;, and created a small app on Google App Engine which returns a HTTP response with a specific status code:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://httpstatus.appspot.com/&#34;&gt;httpstatus.appspot.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update: &lt;/strong&gt; The source code is available &lt;a href=&#34;http://github.com/arthurk/httpstatus/tree/master&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It&#39;s interesting to see how different browsers handle responses with various status codes. For example, Safari 3.1.2 returns a &#34;kCFErrorDomainCFNetwork&#34; error for &lt;a href=&#34;http://httpstatus.appspot.com/100&#34;&gt;status code 100&lt;/a&gt; and Firefox 3.0.1  offers me to download a &#34;Untyped Binary Data&#34; file.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>PyCon UK 2008</title>
+        <link href="http://arthurkoziel.com/2008/09/23/pycon-uk-2008/"/>
+        <updated>2008-09-23T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-09-23:/2008/09/23/pycon-uk-2008/</id>
+        <content type="html" xml:base="/2008/09/23/pycon-uk-2008/">&lt;p&gt;I attended the &lt;a href=&#34;http://www.pyconuk.org/&#34;&gt;PyCon UK 2008&lt;/a&gt; in Birmingham about a week ago (12th to 14th September).&lt;/p&gt;
+
+&lt;p&gt;One thing I really liked about the conference is that there weren&#39;t many people with purely commercial interests around. Most of the attendants were very passionate Python developers who just wanted to meet and learn new stuff.
+&lt;a href=&#34;http://flickr.com/photos/adewale_oshineye/2857139843/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3173/2857139843_70e52b3756.jpg&#34; alt=&#34;Mark Fink giving his talk&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Talks&lt;/h3&gt;
+&lt;p&gt;There were a lot of interesting talks, but if I personally had to choose the most interesting one I would go with &lt;a href=&#34;http://www.pyconuk.org/talk_abstracts.html#49&#34;&gt;&#34;Core Python Containers -- Under the Hood&#34;&lt;/a&gt; from Raymond D. Hettinger.&lt;/p&gt;
+
+&lt;p&gt;The talk was basically about the implementation of lists, tuples, dicts, sets and deques. Under the hood Python uses a fixed-length array of pointers and may call realloc() or memcpy() when it grows or shrinks.&lt;/p&gt;
+
+&lt;p&gt;To minimize the reallocation calls, Python uses an overallocation strategy for the size of the array, so that it always has some space left.&lt;/p&gt;
+
+&lt;p&gt;For example a list with just one item in it will have 4 spaces allocated. If you keep adding items to the list a realloc() gets called for the fifth item and the list will have 8 spaces allocated.&lt;/p&gt;
+
+&lt;p&gt;The growth pattern is 0, 4, 8, 16, 25, 35, 46, 58, 72, 88, ...&lt;/p&gt;
+
+&lt;p&gt;This is just one example from the talk, there were a lot more in his presentation. If you have some time be sure to check out &lt;a href=&#34;http://www.pycon.it/static/pycon2/slides/containers.ppt&#34;&gt;this older presentation [ppt]&lt;/a&gt;, which looks identical.&lt;/p&gt;
+
+&lt;h3&gt;Conference Dinner&lt;/h3&gt;
+&lt;p&gt;One of the highlights was the conference dinner where &lt;a href=&#34;http://www.odyssey.dial.pipex.com/&#34;&gt;Andrew Lound&lt;/a&gt; gave an awesome presentation about the &lt;a href=&#34;http://en.wikipedia.org/wiki/Lunar_Society&#34;&gt;Lunar Society&lt;/a&gt;, which were a group of intellectuals who met during full moon in Birmingham in the 18th century.
+&lt;a href=&#34;http://flickr.com/photos/zerok/2855035443/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3234/2855035443_f74946b063.jpg&#34; alt=&#34;The conference dinner&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Since this was my first time in Birmingham it was quite nice to see a little bit about the history of the city.&lt;/p&gt;
+
+&lt;h3&gt;Django Sprint&lt;/h3&gt;
+&lt;p&gt;On Monday a little Django sprint took place at the conference venue. We were about 10 people sitting in a small circle and hacking away at various tickets. &lt;a href=&#34;http://www.jacobian.org/&#34;&gt;Jacob&lt;/a&gt; did a great job with explaining things so that even I could start working on some tickets.&lt;/p&gt;
+
+&lt;p&gt;Oh, if you&#39;re the guy who bought snacks for everyone and are reading this: thank you very much.&lt;/p&gt;
+
+&lt;p&gt;EuroPython 2009 will also take place in Birmingham and I&#39;m definitely looking forward to it. It&#39;s a great city and the people are nice—there&#39;s no excuse not to come ;-). See you next year.&lt;/p&gt;
+&lt;p&gt;PS.: Traditional english breakfast might sound horrible but actually isn&#39;t that bad.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Automatical superuser creation with Django</title>
+        <link href="http://arthurkoziel.com/2008/09/04/automatical-superuser-creation-django/"/>
+        <updated>2008-09-04T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-09-04:/2008/09/04/automatical-superuser-creation-django/</id>
+        <content type="html" xml:base="/2008/09/04/automatical-superuser-creation-django/">&lt;p&gt;I delete and sync my database fairly often during development with Django because the &#34;syncdb&#34; command will not alter the table in the database after, for example, adding a new field to the corresponding model.&lt;/p&gt;
+
+&lt;p&gt;The problem I have with this is typing in the same data for a superuser over and over again. It&#39;s a very repetitive task, so I was grateful when I heard this tip from my co-worker Sebastian today.&lt;/p&gt;
+&lt;h3&gt;Superuser from fixture&lt;/h3&gt;
+
+&lt;p&gt;We&#39;re going to automatically load the superuser from a fixture. To do this, dump the data of the auth module into a fixture called &#34;initial_data.json&#34;:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;./manage.py dumpdata --indent&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;2 auth &amp;gt; initial_data.json
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You&#39;ll see that along the superuser that you&#39;ve already created during the usual &#34;syncdb&#34; execution, a few other credentials got dumped. Since we only need the data for the superuser, delete the irrelevant stuff. The file should look like this:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;pk&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;model&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;auth.user&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;fields&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;username&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;arthur&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;first_name&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;last_name&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;is_active&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;is_superuser&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;is_staff&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;last_login&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;2008-09-04 14:25:29&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;groups&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[],&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;user_permissions&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[],&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;password&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;sha1$fooobar123&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;email&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;arthur@arthurkoziel.com&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;date_joined&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;2008-09-04 14:25:29&amp;quot;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The fixture called &#34;initial_data.json&#34; will automatically get loaded by Django every time you execute the &#34;syncdb&#34; command.&lt;/p&gt;
+
+&lt;p&gt;Delete your database and try to run the &#34;syncdb&#34; command with the &#34;--noinput&#34; option passed (it will prevent the script to go into interactive mode):&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;./manage.py syncdb --noinput
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;There shouldn&#39;t be a prompt for a superuser and you should see a message at the end of the output indicating that your fixture was loaded.&lt;/p&gt;
+&lt;h3&gt;Admin login&lt;/h3&gt;
+
+&lt;p&gt;Not having to create a superuser is great, but if you&#39;re working a lot with Django&#39;s contrib.admin application, you&#39;ll need to log-in again every time you sync the database and load the user fixture. Another repetitive task that can be eliminated:&lt;/p&gt;
+
+&lt;p&gt;After logging in into the admin backend, dump the data of the &#34;session&#34; table into stdout:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;./manage.py dumpdata --indent&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;2 sessions
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Copy the dictionary containing the session for your superuser and append it to the list in &#34;initial_data.json&#34; like this:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;pk&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;model&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;auth.user&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;fields&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;username&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;arthur&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;first_name&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;last_name&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;is_active&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;is_superuser&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;is_staff&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;last_login&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;2008-09-04 14:25:29&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;groups&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[],&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;user_permissions&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[],&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;password&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;sha1$foobarbarfoo&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;email&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;arthur@arthurkoziel.com&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;date_joined&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;2008-09-04 14:25:29&amp;quot;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;pk&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;9aadfe1de61b0937fasd684221f03&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;model&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;sessions.session&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;fields&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;expire_date&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;2008-10-20 14:34:59&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;session_data&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;foobar123&amp;quot;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You might want to increase the &#34;expire_date&#34; a little bit, so that your session won&#39;t expire.&lt;/p&gt;
+&lt;p&gt;Now every time you delete and sync your database (remember to pass &#34;--noinput&#34;), Django will automatically load the superuser and it&#39;s associated session from the fixture. You won&#39;t have to manually type in the data for the user and log-in into the backend everytime anymore.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Handling static files with Django</title>
+        <link href="http://arthurkoziel.com/2008/09/02/handling-static-files-django/"/>
+        <updated>2008-09-02T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-09-02:/2008/09/02/handling-static-files-django/</id>
+        <content type="html" xml:base="/2008/09/02/handling-static-files-django/">&lt;p&gt;When I started developing in &lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt;, I had absolutely no idea about how to handle static media files. The official documentation is very sparse on this particular topic and the only fact I got out of it is that Django shouldn&#39;t serve them directly as it is very inefficient and insecure (James Bennett &lt;a href=&#34;http://www.b-list.org/weblog/2008/jun/23/media/&#34;&gt;wrote a great post about this topic&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve learned a lot during the past months and in this post I&#39;m going to explain how I handle static media files.&lt;/p&gt;
+&lt;h3&gt;Development&lt;/h3&gt;
+
+&lt;p&gt;You might&#39;ve noticed the MEDIA_URL variable in your project&#39;s settings.py. It specifies the URL where the files should be served from. I prefer to create a &lt;em&gt;&#34;static_media&#34;&lt;/em&gt; directory in the project&#39;s one and point the MEDIA_URL to it:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;n&#34;&gt;MEDIA_URL&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;/static_media/&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In most cases it&#39;s okay to serve static files through Django during development. The following code-snippet will serve the &lt;em&gt;&#34;static_media/&#34;&lt;/em&gt; directory through Django&#39;s static view.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;settings&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DEBUG&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;urlpatterns&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;patterns&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;django.views.static&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;r&amp;#39;^static_media/(?P&amp;lt;path&amp;gt;.*)$&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+        &lt;span class=&#34;s&#34;&gt;&amp;#39;serve&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;s&#34;&gt;&amp;#39;document_root&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;/path/to/static_media&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+        &lt;span class=&#34;s&#34;&gt;&amp;#39;show_indexes&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;bp&#34;&gt;True&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}),)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;em&gt;&#34;static_media/&#34;&lt;/em&gt; directory is where you can put all your media files. When making use of them, make sure you output the MEDIA_URL before it. For example, to include a stylesheet in a template:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;stylesheet&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;{{ MEDIA_URL }}base_min.css&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;media=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;screen&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Production&lt;/h3&gt;
+
+&lt;p&gt;After you&#39;ve uploaded the files to a server, make sure to adjust the settings.py file in your production environment and point the MEDIA_URL to the URL where the media files are.&lt;/p&gt;
+
+&lt;p&gt;In my case, I pointed the MEDIA_URL to &lt;em&gt;&#34;http://media.arthurkoziel.com/&#34;&lt;/em&gt; which is simply a directory served by an separate apache process.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;n&#34;&gt;MEDIA_URL&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;http://media.example.org/&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now your media files will be served by Django&#39;s static view in your development environment and though another webserver/process in the production environment.&lt;/p&gt;
+
+&lt;p&gt;The above example with the css file will resolve into the following URL&#39;s:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Development&lt;/strong&gt;: /static_media/base_min.css&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Production&lt;/strong&gt;: http://media.example.org/base_min.css&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Simply by changing the MEDIA_URL. Remember to sync your local static directory with your production one.&lt;/p&gt;
+
+&lt;p&gt;That&#39;s it, I hope at least some people found this post useful.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Switching to Django, PostgreSQL and WebFaction</title>
+        <link href="http://arthurkoziel.com/2008/08/18/switching-django-postgresql-and-webfaction/"/>
+        <updated>2008-08-18T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-08-18:/2008/08/18/switching-django-postgresql-and-webfaction/</id>
+        <content type="html" xml:base="/2008/08/18/switching-django-postgresql-and-webfaction/">&lt;p&gt;The blog is now powered by a custom Django application instead of Wordpress.&lt;/p&gt;
+
+&lt;p&gt;Most of the URI&#39;s stay the same, only the &lt;a href=&#34;http://arthurkoziel.com/feeds/entries/&#34;&gt;feed address has changed&lt;/a&gt;. Be sure to update your feed reader if you want to read more about, well... stuff I do.&lt;/p&gt;
+
+&lt;p&gt;Comments now use &lt;a href=&#34;http://code.google.com/p/django-threadedcomments/&#34;&gt;django-threadedcomments&lt;/a&gt;, which enables the possibility of replying to specific comments and displaying them in a tree-like manner.&lt;/p&gt;
+
+&lt;p&gt;While migrating the entries and comments from Wordpress (&lt;a href=&#34;http://jannisleidel.com/&#34;&gt;Jannis&lt;/a&gt; wrote a &lt;a href=&#34;http://dpaste.de/195/&#34;&gt;little script&lt;/a&gt; for that, which works great with a few adjustments), I also took the chance to switch the database system from MySQL to PostgreSQL. There&#39;s no particular reason why I switched to Postgres, MySQL is still a good database system, I just wanted to try something new.&lt;/p&gt;
+
+&lt;h3&gt;Hosting&lt;/h3&gt;
+&lt;p&gt;Since &lt;a href=&#34;http://www.dreamhost.com/&#34;&gt;Dreamhost&lt;/a&gt;, the old hosting provider, is just horrible for running Django applications (look at the low &lt;a href=&#34;http://djangofriendly.com/hosts/dreamhost/&#34;&gt;DjangoFriendly score&lt;/a&gt;), I made the switch to &lt;a href=&#34;http://www.webfaction.com/&#34;&gt;WebFaction&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m very happy with their hosting so far. The blog runs on a recent Django trunk checkout and is served by Apache2 with mod_wsgi. Deploying the Django project only took me about 30 minutes yesterday evening (and this was the first time I&#39;ve used WebFaction).&lt;/p&gt;
+
+&lt;h3&gt;Bugs&lt;/h3&gt;
+
+&lt;p&gt;If you encounter problems feel free to send me an email or write a comment under this entry.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Book Review: Practical Django Projects</title>
+        <link href="http://arthurkoziel.com/2008/08/08/book-review-practical-django-projects/"/>
+        <updated>2008-08-08T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-08-08:/2008/08/08/book-review-practical-django-projects/</id>
+        <content type="html" xml:base="/2008/08/08/book-review-practical-django-projects/">&lt;p&gt;&lt;img class=&#34;right&#34; src=&#34;http://media.arthurkoziel.com/img/book_cover/practical_django_projects.jpg&#34; alt=&#34;&#34;&gt;I recently bought &lt;a href=&#34;http://www.amazon.com/dp/1590599969&#34;&gt;Practical Django Projects&lt;/a&gt;. The book mainly goes through the development of three applications:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;cms&lt;/strong&gt;: A simple content management system&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://code.google.com/p/coltrane-blog/&#34;&gt;&lt;strong&gt;coltrane&lt;/strong&gt;&lt;/a&gt;: A blogging application&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://code.google.com/p/cab/&#34;&gt;cab&lt;/a&gt;&lt;/strong&gt;: The code-sharing application behind &lt;a href=&#34;http://www.djangosnippets.org/&#34;&gt;djangosnippets.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It shows how &lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt; can ease the development by taking care of tedious and repetitive tasks and make it fun again. It also encourages and gives some great examples on how one can write flexible and reusable applications that can be used among various projects.&lt;/p&gt;
+
+&lt;p&gt;The first project is more of an introduction to Django and shows how to write a simple cms by making use of the bundled &lt;a href=&#34;http://www.djangoproject.com/documentation/flatpages/&#34;&gt;Flatpage&lt;/a&gt; application. The other two projects also go into more advanced things like writing custom Model Managers, Signals or Template Tags.&lt;/p&gt;
+&lt;h3&gt;Newforms-Admin/Signals Refactoring&lt;/h3&gt;
+&lt;p&gt;Since Practical Django Projects was published before the &lt;a href=&#34;http://code.djangoproject.com/changeset/7967&#34;&gt;Newforms-admin branch was merged into trunk&lt;/a&gt; and &lt;a href=&#34;http://code.djangoproject.com/changeset/8223&#34;&gt;Signals were refactored&lt;/a&gt;, there are a few outdated code examples in the book.&lt;/p&gt;
+
+&lt;p&gt;While there are a few pages about how to customize the admin interface, it doesn&#39;t focus on it and therefore isn&#39;t really a big problem. The few admin-specific code examples in the book can easily be translated by looking at the &lt;a href=&#34;http://www.djangoproject.com/documentation/admin/&#34;&gt;admin documentation&lt;/a&gt; and the &lt;a href=&#34;http://code.djangoproject.com/wiki/NewformsHOWTO&#34;&gt;NewformHOWTO wiki page.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As for Signals, I think that the important part is to understand how they fundamentally work and this book explains it very well. To use the examples in the book, there&#39;s the &lt;a href=&#34;http://code.djangoproject.com/wiki/Signals#Refactoringdifferences&#34;&gt;Signals page on Django&#39;s wiki&lt;/a&gt; which shows the specific API changes.&lt;/p&gt;
+
+&lt;p&gt;There&#39;s also the possibility of checking out the &lt;a href=&#34;http://code.djangoproject.com/browser/django/tags/notable_moments/pre-newforms-admin&#34;&gt;pre-newforms-admin&lt;/a&gt; tag from Django&#39;s Subversion repository which will give you a revision of Django before newforms-admin was merged, and the signal-refactoring took place. The code examples in the book should work without a problem by using this revision.&lt;/p&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;I recommend this book to everyone who knows a little Python and has heard of Django but hasn&#39;t really had the time or ideas to write some (reusable) applications with it. It lies a great foundation and shows the fundamental techniques to work with Django, so that it shouldn&#39;t be a problem to implement own ideas in the future.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>The Google Software Update Agent</title>
+        <link href="http://arthurkoziel.com/2008/07/26/the-google-software-update-agent/"/>
+        <updated>2008-07-26T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-07-26:/2008/07/26/the-google-software-update-agent/</id>
+        <content type="html" xml:base="/2008/07/26/the-google-software-update-agent/">&lt;p&gt;I was quite surprised when I saw a Google icon show up in my menubar today:&lt;/p&gt;
+&lt;img src=&#34;gael_taskbar.png&#34; alt=&#34;GoogleSoftwareUpdateAgent menubar icon&#34;&gt;
+
+&lt;p&gt;Not only did this icon look absolutely horrid, I can&#39;t even remember installing a Google Updater. The only Google application I installed was the &lt;a href=&#34;http://code.google.com/appengine/downloads.html&#34;&gt;App Engine Launcher for OS X&lt;/a&gt;, and it doesn&#39;t have any updater-options nor does the documentation mention a single word about it.&lt;/p&gt;
+
+&lt;p&gt;So I went through a few emails from the &lt;a href=&#34;http://groups.google.com/group/google-appengine&#34;&gt;google-appengine mailing list&lt;/a&gt;. It turns out that the Google App Engine Launcher for OS X also installs the Google Software Update Agent and adds it as a startup item — without mentioning it to the user.&lt;/p&gt;
+
+&lt;p&gt;Disabling the startup item can be done by deleting the file &lt;em&gt;~/Library/LaunchAgents/com.google.keystone.agent.plist&lt;/em&gt; or adding a new &#34;Disabled&#34; property to it (in case you want to keep the file):&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;key&amp;gt;&lt;/span&gt;Disabled&lt;span class=&#34;nt&#34;&gt;&amp;lt;/key&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;true/&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;It&#39;s kind of surprising to see such a behavior from Google, and I&#39;m sure that I&#39;m not the only user who is slightly upset about this.&lt;/p&gt;
+
+</content>
+    </entry>
+    <entry>
+        <title>sfReCaptchaPlugin for Symfony 1.1</title>
+        <link href="http://arthurkoziel.com/2008/07/10/sfrecaptchaplugin-for-symfony-11/"/>
+        <updated>2008-07-10T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-07-10:/2008/07/10/sfrecaptchaplugin-for-symfony-11/</id>
+        <content type="html" xml:base="/2008/07/10/sfrecaptchaplugin-for-symfony-11/">&lt;p&gt;The &lt;a href=&#34;http://trac.symfony-project.org/wiki/sfReCaptchaPlugin&#34;&gt;sfReCaptchaPlugin&lt;/a&gt; was just updated to be compatible with &lt;a href=&#34;http://www.symfony-project.org/&#34;&gt;Symfony&lt;/a&gt; 1.1. The plugin was completely rewritten to use the new &lt;a href=&#34;http://www.symfony-project.org/book/forms/1_1/en/&#34;&gt;sfForm&lt;/a&gt; class.&lt;/p&gt;
+
+&lt;p&gt;The sfReCaptchaPlugin version for Symfony 1.0 is still available. The version number indicates the compatibility with Symfony versions:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;em&gt;1.0.x&lt;/em&gt; for Symfony 1.0&lt;/li&gt;
+	&lt;li&gt;&lt;em&gt;1.1.x&lt;/em&gt; for Symfony 1.1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;Most of the documentation for the 1.1 version is still missing (including the plugin development stuff). I&#39;ve yet to find out how to use the &lt;em&gt;plugin:install&lt;/em&gt; task to correctly install a package from the Symfony PEAR channel. 
+Until then you can &lt;a href=&#34;http://trac.symfony-project.org/attachment/wiki/sfReCaptchaPlugin/sfReCaptchaPlugin-1.1.0.tgz?format=raw&#34;&gt;download the package directly from the Symfony wiki&lt;/a&gt; and pass the file path to the task:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;symfony plugin:install sfReCaptchaPlugin-1.1.0.tgz&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Feel free to post bug reports to &lt;a href=&#34;http://trac.symfony-project.org/newticket&#34;&gt;Symfony&#39;s Trac&lt;/a&gt;.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>PyFlakes installation and TextMate integration</title>
+        <link href="http://arthurkoziel.com/2008/06/28/pyflakes-installation-and-textmate-integration/"/>
+        <updated>2008-06-28T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-06-28:/2008/06/28/pyflakes-installation-and-textmate-integration/</id>
+        <content type="html" xml:base="/2008/06/28/pyflakes-installation-and-textmate-integration/">&lt;p&gt;&lt;a href=&#34;http://divmod.org/trac/wiki/DivmodPyflakes&#34;&gt;PyFlakes&lt;/a&gt; is a tool to identify common mistakes in Python source-code. This includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Redefined functions&lt;/li&gt;
+&lt;li&gt;Shadowed variables&lt;/li&gt;
+&lt;li&gt;Unused and undefined names&lt;/li&gt;
+&lt;li&gt;Unused or missing imports&lt;/li&gt;
+&lt;li&gt;Variables referenced before assignment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;p&gt;Because of a few &lt;a href=&#34;ttp://divmod.org/trac/log/trunk/Pyflakes&#34;&gt;notable fixes&lt;/a&gt; over the latest stable release (0.2.1) from October 2005, I&#39;m going to describe how to install the latest trunk from the Subversion repository.&lt;/p&gt;
+
+&lt;p&gt;The first thing we&#39;re going to do is a checkout in a directory called &lt;em&gt;pyflakes&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;svn co http://divmod.org/svn/Divmod/trunk/Pyflakes pyflakes
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;After that, we create the symbolic links to the Python site-packages directory and a binary path (here: &lt;em&gt;/usr/local/bin&lt;/em&gt;).&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;ln -s &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;pwd&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;/pyflakes/pyflakes SITE-PACKAGES-DIR/pyflakes
+ln -s &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;pwd&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;/bin/pyflakes /usr/local/bin
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The Python site-packages directory can be found by invoking the following command:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;python -c &lt;span class=&#34;s2&#34;&gt;&amp;quot;from distutils.sysconfig import get_python_lib; print get_python_lib()&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;TextMate integration&lt;/h3&gt;
+
+&lt;p&gt;The Python bundle for &lt;a href=&#34;http://macromates.com/&#34;&gt;TextMate&lt;/a&gt; includes the PyCheckMate script which has support for &lt;a href=&#34;http://pychecker.sourceforge.net/&#34;&gt;PyChecker&lt;/a&gt;, &lt;a href=&#34;http://www.logilab.org/857&#34;&gt;PyLint&lt;/a&gt; and PyFlakes. The bundle is installed in a default TextMate installation.&lt;/p&gt;
+
+&lt;img src=&#34;http://media.arthurkoziel.com/img/pyflakes-mate.png&#34; alt=&#34;&#34;&gt;
+
+&lt;p&gt;PyCheckMate automatically checks for and chooses one of the supported programs mentioned above. To change this, we can modify the &lt;em&gt;TM_PYCHECKER&lt;/em&gt; variable in &lt;em&gt;~/.bash_profile&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nb&#34;&gt;export &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;TM_PYCHECKER&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;pylint
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The supported values are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;builtin (also used when no other checker is installed, only performs a syntax-check)&lt;/li&gt;
+&lt;li&gt;pychecker&lt;/li&gt;
+&lt;li&gt;pylint&lt;/li&gt;
+&lt;li&gt;pyflakes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Setting the variable is not needed when only PyFlakes is installed.&lt;/p&gt;
+
+&lt;p&gt;To perform the check in TextMate, go to &lt;em&gt;Bundles&lt;/em&gt; -&gt; &lt;em&gt;Python&lt;/em&gt; -&gt; &lt;em&gt;Validate Syntax (PyCheckMate)&lt;/em&gt; or press the shortcut &lt;em&gt;Ctrl-Shift-V&lt;/em&gt;.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>LaTeX Beamer presentations from YAML files</title>
+        <link href="http://arthurkoziel.com/2008/06/23/latex-beamer-presentations-from-yaml-files/"/>
+        <updated>2008-06-23T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-06-23:/2008/06/23/latex-beamer-presentations-from-yaml-files/</id>
+        <content type="html" xml:base="/2008/06/23/latex-beamer-presentations-from-yaml-files/">&lt;p&gt;yml2tex is a Python script which will generate a &lt;a href=&#34;http://latex-beamer.sourceforge.net/&#34;&gt;LaTeX Beamer&lt;/a&gt; presentation out of a &lt;a href=&#34;http://yaml.org/&#34;&gt;YAML&lt;/a&gt; file. You can &lt;a href=&#34;http://code.google.com/p/yml2tex/&#34;&gt;download the script at Google Code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The initial idea came from &lt;a href=&#34;http://www.zedshaw.com/&#34;&gt;Zed Shaw&lt;/a&gt; who wrote a similar script for his RuPy 2008 presentation and published it on his blog.&lt;/p&gt;
+
+&lt;h3&gt;Why?&lt;/h3&gt;
+
+&lt;p&gt;I&#39;ve done presentations with LaTeX Beamer in the past, but always had a hard time remembering the &lt;a href=&#34;http://www.latex-project.org/&#34;&gt;LaTeX&lt;/a&gt; syntax for things like adding a table of contents, displaying the current frame number in the footer or adding an itemized list which highlights the current element.&lt;/p&gt;
+
+&lt;p&gt;The only thing I always remembered was the basic structure of LaTeX Beamer presentations (sections, subsections, frames) — and that&#39;s where YAML, with its hierarchical structure, comes into play. You don&#39;t have to remember the LaTeX commands for creating a presentation, just the basic structure.&lt;/p&gt;
+
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;p&gt;The purpose of this script is to generate a presentation which mainly includes (nested) itemized lists. It is also possible to make a frame with an image in it and a frame which includes highlighted source code (with help from &lt;a href=&#34;http://www.zedshaw.com/projects/idiopidae/&#34;&gt;Idiopidae&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;The YAML hierarchy is perfect for the features mentioned above, but not for most of the other commands LaTeX Beamer has to offer. For example, trying to &lt;a href=&#34;http://happymutant.com/latex/misce/beamer.php#columns&#34;&gt;create columns&lt;/a&gt; in a frame would be hard to realize and only complicate the YAML syntax.&lt;/p&gt;
+
+&lt;h3&gt;Syntax&lt;/h3&gt;
+&lt;p&gt;In order to generate a presentation, the script requires the YAML file to have the following syntax:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;- section:
+  - subsection:
+    - frame:
+      - item
+      - item
+      - item&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;(The dashes are necessary to parse an item into a List instead of a Dictionary in Python. Dictionaries have no concept of order among elements — the presentation would be completely unordered.)&lt;/p&gt;
+
+&lt;p&gt;The items in each frame can also be nested:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;- section:
+  - subsection:
+    - frame:
+      - item
+      - item:
+        - item
+        - item
+      - item&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note that LaTeX Beamer limits the maximum depth of nested items to 3.&lt;/p&gt;
+
+&lt;h4&gt;Images&lt;/h4&gt;
+&lt;p&gt;To create a frame with an image in it, the title needs to start with the &#34;&lt;em&gt;image&lt;/em&gt;&#34; keyword and define the image path after it. The following example will create a frame and include the &#34;&lt;em&gt;foobar.png&lt;/em&gt;&#34; image.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;- section:
+  - subsection:
+    - image foobar.png:
+    - frame:
+      - item
+      - item
+      - item&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Images are automatically shrunk to the size of the frame.&lt;/p&gt;
+&lt;h4&gt;Syntax Highlighting&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;http://media.arthurkoziel.com/img/yml2tex_highlight_preview.png&#34; alt=&#34;&#34;&gt;
+yml2tex will create a placeholder/marker for &lt;a href=&#34;http://www.zedshaw.com/projects/idiopidae/&#34;&gt;Idiopidae&lt;/a&gt; whenever it finds a frame which starts with the &#34;&lt;em&gt;include&lt;/em&gt;&#34; keyword and is followed by the path of the file which should be included.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;- section:
+  - subsection:
+    - include foobar.c:
+    - frame:
+      - item
+      - item
+      - item&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Remember to run your generated LaTeX file through &lt;a href=&#34;http://www.zedshaw.com/projects/idiopidae/&#34;&gt;Idiopidae&lt;/a&gt; to actually include and highlight the source code:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;idio out.tex &amp;gt; out_idio.tex&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Generating the presentation&lt;/h3&gt;
+&lt;p&gt;The first parameter needs to be the path to the YAML file. The output will be printed to stdout.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;./yml2tex.py input.yml &amp;gt; output.tex&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;After generating the LaTeX syntax, you can build the presentation by executing the &lt;em&gt;pdflatex&lt;/em&gt; command:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;pdflatex output.tex&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Default Style &amp;amp; Added Elements&lt;/h3&gt;
+&lt;p&gt;The default style was taken from &lt;a href=&#34;http://faq.ktug.or.kr/wiki/uploads/beamer_guide.pdf&#34;&gt;Ki-Joo Kim&#39;s Beamer v3.0 Guide&lt;/a&gt;. The script will also:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Set UTF-8 as the default encoding.&lt;/li&gt;
+        &lt;li&gt;Highlight the current item in a itemized list.&lt;/li&gt;
+	&lt;li&gt;Add a title slide.&lt;/li&gt;
+	&lt;li&gt;Add a TOC after the title slide.&lt;/li&gt;
+	&lt;li&gt;Add a TOC before each section with the current section highlighted.&lt;/li&gt;
+	&lt;li&gt;Display the current and total frame count at the bottom of each slide.&lt;/li&gt;
+	&lt;li&gt;Include the necessary packages and commands for &lt;a href=&#34;http://pygments.org/&#34;&gt;Pygments&lt;/a&gt; &#34;&lt;em&gt;colorful&lt;/em&gt;&#34; style.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can &lt;a href=&#34;http://yml2tex.googlecode.com/files/release_idio.pdf&#34;&gt;download a demonstration pdf of a generated presentation&lt;/a&gt; and take a loot at the &lt;a href=&#34;http://yml2tex.googlecode.com/files/release_idio_source.zip&#34;&gt;download the source code of it&lt;/a&gt;).&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>How to: GnuPG for Mail.app in Leopard</title>
+        <link href="http://arthurkoziel.com/2008/06/10/how-to-gnupg-for-mailapp-in-leopard/"/>
+        <updated>2008-06-10T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-06-10:/2008/06/10/how-to-gnupg-for-mailapp-in-leopard/</id>
+        <content type="html" xml:base="/2008/06/10/how-to-gnupg-for-mailapp-in-leopard/">&lt;p&gt;While recently trying to install and configure GnuPG for Mail.app under
+Mac OS X 10.5.3, I came across a few issues which unfortunately took a lot more
+time than expected.&lt;/p&gt;
+&lt;p&gt;I installed GnuPG through &lt;a class=&#34;reference external&#34; href=&#34;http://www.macports.org&#34;&gt;MacPorts&lt;/a&gt;. However, with &lt;a class=&#34;reference external&#34; href=&#34;http://macgpg.sourceforge.net&#34;&gt;MacGPG&lt;/a&gt; there&#39;s a simpler
+but also more outdated solution available. You can also give a more recent
+&lt;a class=&#34;reference external&#34; href=&#34;http://www.py-soft.co.uk/~benjamin/download/mac-gpg&#34;&gt;MacGPG test-release&lt;/a&gt; a try.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;gnupg&#34;&gt;
+&lt;h2&gt;GnuPG&lt;/h2&gt;
+&lt;p&gt;The GnuPG installation via MacPorts is pretty straightforward:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 14)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    sudo port install gnupg2
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;pinentry&#34;&gt;
+&lt;h2&gt;Pinentry&lt;/h2&gt;
+&lt;p&gt;Pinentry doesn&#39;t have an official port for Mac OS X, so no dialog will be
+displayed when encrypting or decrypting email. However, Benjamin Donnachie
+was so kind to create an unofficial Pinentry-mac version. You can find it
+in the &lt;a class=&#34;reference external&#34; href=&#34;http://macgpg2.sourceforge.net/&#34;&gt;MacGPG2&lt;/a&gt; package.&lt;/p&gt;
+&lt;p&gt;After unzipping, the &lt;em&gt;pinentry-mac&lt;/em&gt; application needs to be moved or
+copied to the &lt;em&gt;/Applications&lt;/em&gt; directory:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 29)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    mv pinentry-mac.app /Applications/
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;The gpg-agent configuration file (&lt;em&gt;~/.gnupg/gpg-agent.conf&lt;/em&gt;) must to be
+modified in order to use the new &lt;em&gt;pinentry-mac&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 36)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    pinentry-program /Applications/pinentry-mac.app/Contents/MacOS/pinentry-mac
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;To reload the configuration, gpg-agent needs to be restarted:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 42)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    killall gpg-agent
+    gpg-agent --daemon
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;gpgmail&#34;&gt;
+&lt;h2&gt;GPGMail&lt;/h2&gt;
+&lt;p&gt;The latest GPGMail plugin beta for Leopard&#39;s Mail.app can be found  &lt;a class=&#34;reference external&#34; href=&#34;http://www.sente.ch/software/GPGMail/English.lproj/GPGMail.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To make use of custom bundles in Mail.app, it needs to be enabled first:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 54)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    defaults write com.apple.mail EnableBundles -bool yes
+    defaults write com.apple.mail BundleCompatibilityVersion -int 3
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;A &amp;quot;&lt;em&gt;Bundles&lt;/em&gt;&amp;quot; directory must be created in &lt;em&gt;~/Library/Mail/&lt;/em&gt; and
+the &lt;em&gt;.mailbundle&lt;/em&gt; file from the mounted GPGMail dmg needs to be copied there:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 62)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    mkdir ~/Library/Mail/Bundles
+    cp -r /Volumes/GPGMail_d53_Leopard/GPGMail.mailbundle ~/Library/Mail/Bundles/
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Upon a restart of Mail.app, a notification should display a small warning about
+missing keys. The &lt;a class=&#34;reference external&#34; href=&#34;https://help.ubuntu.com/community/GnuPrivacyGuardHowto#head-ac9f3c8c534ef1d05a29738b4c201a59f649fa07&#34;&gt;GPG Howto from the ubuntu documentation&lt;/a&gt; describes the
+process of generating keys pretty well.&lt;/p&gt;
+&lt;img alt=&#34;GPGMail Settings Window&#34; src=&#34;gpgmailapp.png&#34; /&gt;
+&lt;p&gt;That&#39;s it, i hope this guide was helpful to some people. You can find my
+current public key on my &lt;a class=&#34;reference external&#34; href=&#34;http://arthurkoziel.com/about/&#34;&gt;About page&lt;/a&gt; or download it from a keyserver like
+the &lt;a class=&#34;reference external&#34; href=&#34;http://pgp.mit.edu:11371/pks/lookup?op=get&amp;amp;search=0xEC4E647B83ABBBE7&#34;&gt;MIT&#39;s Public Key Server&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+        <title>How to: LaTeX Beamer for TeX Live on OS X</title>
+        <link href="http://arthurkoziel.com/2008/06/02/how-to-install-latex-beamer-for-tex-live-on-mac-os-x/"/>
+        <updated>2008-06-02T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-06-02:/2008/06/02/how-to-install-latex-beamer-for-tex-live-on-mac-os-x/</id>
+        <content type="html" xml:base="/2008/06/02/how-to-install-latex-beamer-for-tex-live-on-mac-os-x/">&lt;p&gt;Here you&#39;ll find instructions to install &lt;a href=&#34;http://latex-beamer.sourceforge.net/&#34;&gt;LaTeX Beamer&lt;/a&gt;
+on a TeX Live system, which was installed via &lt;a href=&#34;http://www.macports.org/&#34;&gt;MacPorts&lt;/a&gt;
+(but should also work on other installations if you adjust the TEXMF path).&lt;/p&gt;
+
+&lt;p&gt;If you don&#39;t want to follow the whole instruction, be sure to check out the
+&lt;a href=&#34;#bash-script&#34;&gt;Bash script&lt;/a&gt;, which installs LaTeX Beamer for you,
+at the end of this post.&lt;/p&gt;
+
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;p&gt;First we need to download LaTeX Beamer and it&#39;s required dependencies
+(xcolor and pgf). The files can be downloaded on the
+&lt;a href=&#34;https://sourceforge.net/project/showfiles.php?group_id=92412&#34;&gt;corresponding website at SourceForge&lt;/a&gt;
+or via these direct links:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&#34;http://surfnet.dl.sourceforge.net/sourceforge/latex-beamer/latex-beamer-3.07.tar.gz&#34;&gt;latex-beamer&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://mesh.dl.sourceforge.net/sourceforge/latex-beamer/xcolor-2.00.tar.gz&#34;&gt;xcolor&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://switch.dl.sourceforge.net/sourceforge/latex-beamer/pgf-1.01.tar.gz&#34;&gt;pgf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Upon completion of the download the files need to be extracted:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;tar xvzf latex-beamer-3.07.tar.gz
+tar xzvf xcolor-2.00.tar.gz
+tar xvzf pgf-1.01.tar.gz&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.tug.org/twg/tds/&#34;&gt;TeX directory structure&lt;/a&gt; has a
+specific hierarchy (the TEXMF tree) and various locations where it looks for its
+files. The default TEXMF tree on a MacPorts TeX Live installation is located at
+/opt/local/share/texmf/.&lt;/p&gt;
+
+&lt;p&gt;To make use of the packages, we need to create the appropriate directories
+in the TEXMF tree, and place the previously extracted files there:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;sudo mkdir -p /opt/local/share/texmf/tex/latex/&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;beamer,pgf,xcolor&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+sudo mv latex-beamer-3.07/* /opt/local/share/texmf/tex/latex/beamer/
+sudo mv pgf-1.01/* /opt/local/share/texmf/tex/latex/pgf/
+sudo mv xcolor/* /opt/local/share/texmf/tex/latex/xcolor/&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;TeX does not recognize these new files right away since it uses a cache
+(the ls-R database) for efficiency reasons. The following command rebuilds the
+ls-R database:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;sudo texhash&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;img title=&#34;texhash&#34; src=&#34;http://media.arthurkoziel.com/img/texhash.png&#34; alt=&#34;&#34; /&gt;
+
+&lt;h3&gt;Testing&lt;/h3&gt;
+&lt;p&gt;We can copy&amp;amp;paste the example from the &lt;a href=&#34;http://latex-beamer.sourceforge.net/&#34;&gt;LaTeX Beamer website&lt;/a&gt;
+into a newly created file and compile it in order to test the installation:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;pdflatex filename.tex&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This should, among various other file formats, create the presentation in
+the pdf format (filename.pdf).&lt;/p&gt;
+
+&lt;h3 id=&#34;bash-script&#34;&gt;Bash script&lt;/h3&gt;
+&lt;p&gt;Following a installation instruction step-by-step can be a very
+time-consuming task. But since I&#39;m a huge fan of automating tasks, I wrote a
+small Bash script which basically performs all the steps mentioned above.
+(Note: You&#39;ll need to have wget installed.)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;latexbeamer_texlive.sh&#34;&gt;Download the Bash script here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Don&#39;t forget to make the file executeable:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;chmod u+x latexbeamer_texlive.sh&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;That&#39;s it. I hope the Bash script will be useful for some people.&lt;/p&gt;
+
+&lt;p&gt;For further information on the TeX system, I recommend reading 
+&lt;a href=&#34;http://www.ctan.org/installationadvice&#34;&gt;Managing a one-person TeX system&lt;/a&gt;.
+&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Secure/bullet proof cookies</title>
+        <link href="http://arthurkoziel.com/2008/05/17/securebullet-proof-cookies/"/>
+        <updated>2008-05-17T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-05-17:/2008/05/17/securebullet-proof-cookies/</id>
+        <content type="html" xml:base="/2008/05/17/securebullet-proof-cookies/">&lt;p&gt;There seems to be a &lt;a href=&#34;http://blog.fourspaces.com/2008/05/14/bullet-proof-cookies-why-bother/&#34;&gt;discussion&lt;/a&gt; about &lt;a href=&#34;http://www.codeproject.com/KB/aspnet/BulletProofCookies.aspx&#34;&gt;bullet proof cookies&lt;/a&gt; lately and I&#39;m quite surprised that most web developers haven&#39;t read the excellent &#34;&lt;a href=&#34;http://www.cse.msu.edu/~alexliu/publications/Cookie/cookie.pdf&#34;&gt;A Secure Cookie Protocol&lt;/a&gt;&#34; research paper from Alex X. Liu.&lt;/p&gt;
+
+&lt;p&gt;Here&#39;s a short summary of what services a bullet proof cookie should provide:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Authentication&lt;/strong&gt;
+    Verify that the client has been authenticated within a certain time period.&lt;/li&gt;
+	&lt;li&gt;
+    	&lt;strong&gt;Confidentiality&lt;/strong&gt;
+        &lt;ul&gt;
+    	    &lt;li&gt;
+    	        &lt;strong&gt;Low-level&lt;/strong&gt;
+                Prevent any parties except the user and the server from reading the cookie data.
+            &lt;/li&gt;
+    	    &lt;li&gt;
+    	        &lt;strong&gt;High-level&lt;/strong&gt;
+                Prevent any parties except the server from reading the cookie data.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Integrity&lt;/strong&gt;
+    The server should be able to detect if a cookie has been modified.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Anti-Replay&lt;/strong&gt;
+    Stolen cookies should be detected as invalid.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Confidentiality&lt;/h3&gt;
+&lt;p&gt;In my opinion, high-level confidentiality is unnecessary. I think Marcus R. Breese describes this best &lt;a href=&#34;http://blog.fourspaces.com/2008/05/14/bullet-proof-cookies-why-bother/&#34;&gt;in his blog&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;&#34;Specifically, my rule of thumb is that if you don’t want a client to know
+the data, don&#39;t send it to them.&#34;&lt;/blockquote&gt;
+
+&lt;p&gt;I totally agree with him and further think that cookies should be used for
+authentication only, and that the data should be stored in the database.&lt;/p&gt;
+
+&lt;h3&gt;Example: Wordpress&lt;/h3&gt;
+&lt;p&gt;Wordpress 2.5 introduced a similar structure for its cookies as the one proposed in the research paper. In Wordpress 2.5 cookies have the following structure:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;user name|expiration time|HMAC(user name|expiration time, k)
+where k=HMAC(user name|expiration time, sk)
+and sk=secret server key&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Therefore a normal Wordpress cookie looks like this:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;admin|1212093864|82436be3x303xaddd6fd31db338770a6&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;There are two points which are different from the originally proposed cookie protocol from Alex X. Liu.&lt;/p&gt;
+
+&lt;p&gt;The first one is that there&#39;s no data attached to this cookie - it&#39;s only used to authenticate the user. The second one is that there&#39;s no SSL session key attached.&lt;/p&gt;
+
+&lt;p&gt;Removing the SSL session key was not a good (vulnerable to replay attacks) but necessary choice since most Wordpress installations run on non-SSL hosts.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Secure authentication cookies with Django</title>
+        <link href="http://arthurkoziel.com/2008/05/15/secure-authentication-cookies-with-django/"/>
+        <updated>2008-05-15T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-05-15:/2008/05/15/secure-authentication-cookies-with-django/</id>
+        <content type="html" xml:base="/2008/05/15/secure-authentication-cookies-with-django/">&lt;p&gt;Some time ago &lt;a href=&#34;http://www.cse.msu.edu/~alexliu/home.html&#34;&gt;Alex X. Liu&lt;/a&gt; published a research paper on &lt;a href=&#34;http://www.cse.msu.edu/~alexliu/publications/Cookie/cookie.pdf&#34;&gt;secure cookie protocols&lt;/a&gt;. I tried to implement the protocol in Python, but sadly had to remove some fields from the protocol. You can &lt;a href=&#34;http://media.arthurkoziel.com/django/authcookie.zip&#34;&gt;download it here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Changes&lt;/h3&gt;
+&lt;p&gt;This is the original protocol:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;user name|expiration time|(data)k|HMAC(user name|expiration time|data|session key, k)
+where k=HMAC(user name|expiration time, sk)
+and sk=secret server key&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I removed &lt;em&gt;(data)k&lt;/em&gt; and &lt;em&gt;session key&lt;/em&gt;, which changes the protocol to:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;user name|expiration time|HMAC(user name|expiration time, k)
+where k=HMAC(user name|expiration time, sk)
+and sk=secret server key&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The data field was removed because I couldn&#39;t find a good two way encryption library for Python, and the session key was removed due to the lack of SSL.&lt;/p&gt;
+
+&lt;p&gt;The new structure is similar to the one used for the authentication in the backend of the recently released &lt;a href=&#34;http://trac.wordpress.org/ticket/5367&#34;&gt;Wordpress 2.5&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Usage&lt;/h3&gt;
+&lt;p&gt;To create a cookie in Django, use the &lt;em&gt;set_cookie&lt;/em&gt; method of the response object:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;&lt;span class=&#34;n&#34;&gt;cookie&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;myutils&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;generate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#39;arthur&#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1210708139&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;response&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;render_to_response&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#39;index.html&#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;response&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;set_cookie&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#39;mycookie&#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cookie&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;response&lt;/span&gt;&lt;/pre&gt;
+&lt;/div&gt;</content>
+    </entry>
+    <entry>
+        <title>Download for improved sfDateValidator</title>
+        <link href="http://arthurkoziel.com/2008/05/07/improved-sfdatevalidator-for-symfony-10-new-download-link/"/>
+        <updated>2008-05-07T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-05-07:/2008/05/07/improved-sfdatevalidator-for-symfony-10-new-download-link/</id>
+        <content type="html" xml:base="/2008/05/07/improved-sfdatevalidator-for-symfony-10-new-download-link/">&lt;p&gt;Sometime during last month, the server where my improved sfDateValidator for Symfony 1.0 was hosted went down. Although over a year passed since I wrote it, I&#39;m quite pleased that there are still some people who are interested in it.&lt;/p&gt;
+
+&lt;p&gt;Of course there&#39;s the &lt;a href=&#34;http://trac.symfony-project.com/ticket/1665&#34;&gt;ticket in Symfony&#39;s Trac&lt;/a&gt; with the files attached to it, but the attached php class is the wrong one. In order to use it, you had to apply the attached patch manually (which I guess caused some confusion).&lt;/p&gt;
+
+&lt;p&gt;However, I ran the unit test for the improved sfDateValidator against Symfony 1.0.14, and it still works very well. So, here&#39;s the new download link:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://media.arthurkoziel.com/symfony/sfdatevalidator.zip&#34;&gt;Download the improved sfDateValidator for Symfony 1.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You might want to &lt;a href=&#34;http://symfoniac.wordpress.com/2007/04/12/my-final-sfdatevalidator/&#34;&gt;head over to the old post on Symfoniac&lt;/a&gt; for a quick usage example.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Merging with git-pull</title>
+        <link href="http://arthurkoziel.com/2008/05/06/merging-with-git-pull/"/>
+        <updated>2008-05-06T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-05-06:/2008/05/06/merging-with-git-pull/</id>
+        <content type="html" xml:base="/2008/05/06/merging-with-git-pull/">&lt;p&gt;The &lt;a href=&#34;http://www.kernel.org/pub/software/scm/git/docs/git-pull.html&#34;&gt;git-pull&lt;/a&gt; command is basically a shortcut for:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;git-fetch &amp;amp;&amp;amp; git-merge origin&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The fetch gets the changes from the remote repository, but does not merge them with your local checkout yet. You can examine these changes using &lt;em&gt;origin&lt;/em&gt; as the reference, and merge them into your master branch.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html&#34;&gt;git-fetch&lt;/a&gt; part is optional. You can pass . (current directory) to it and merge local branches.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;git-pull . refactor
+git-merge refactor&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Both commands will do the same: merge the refactor branch.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Git Configuration</title>
+        <link href="http://arthurkoziel.com/2008/05/02/git-configuration/"/>
+        <updated>2008-05-02T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-05-02:/2008/05/02/git-configuration/</id>
+        <content type="html" xml:base="/2008/05/02/git-configuration/">&lt;p&gt;Here are some useful configuration options for &lt;a href=&#34;http://git.or.cz/&#34;&gt;Git&lt;/a&gt;. Some of them, like the Bash completion, are OS X specific but should also work if you adjust the paths according to your system of choice.&lt;/p&gt;
+
+&lt;p&gt;Install with &lt;a href=&#34;http://www.macports.org/&#34;&gt;MacPorts&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;
+sudo port install git-core +svn +bash_completion
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Bash completion:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;
+cp /opt/local/etc/bash_completion.d/git ~/.git-bash-completion.sh
+&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;[ -f ~/.git-bash-completion.sh ] &amp;amp;&amp;amp; . ~/.git-bash-completion.sh&amp;quot;&lt;/span&gt; &gt;&gt; ~/.bash_profile
+. ~/.bash_profile
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Global ignore file:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;
+&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;.DS_Store&amp;quot;&lt;/span&gt; &gt;&gt; ~/.gitignore
+git config --global core.excludesfile ~/.gitignore
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;SVN-like shortcuts for often used commands:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;
+git config --global alias.st status
+git config --global alias.ci commit
+git config --global alias.co checkout
+git config --global alias.br branch
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Information about the author/commiter:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;
+git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;quot;Your Name Comes Here&amp;quot;&lt;/span&gt;
+git config --global user.email you@yourdomain.example.com
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Colorized output:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;
+git config --global color.branch auto
+git config --global color.diff auto
+git config --global color.interactive auto
+git config --global color.status auto
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;TextMate as the default editor:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;
+git config --global core.editor &lt;span class=&#34;s2&#34;&gt;&amp;quot;mate -w&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Opendiff (FileMerge) to resolve merge conflicts:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;
+git config --global merge.tool opendiff
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Change the font in gitk: Open &lt;em&gt;~/.gitk&lt;/em&gt; and add:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;
+set mainfont {Monaco 12}
+set textfont {Monaco 12}
+set uifont {Monaco 12}
+&lt;/pre&gt;&lt;/div&gt;</content>
+    </entry>
+    <entry>
+        <title>Install Django with Git</title>
+        <link href="http://arthurkoziel.com/2008/04/30/install-django-with-git/"/>
+        <updated>2008-04-30T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-04-30:/2008/04/30/install-django-with-git/</id>
+        <content type="html" xml:base="/2008/04/30/install-django-with-git/">&lt;p&gt;Although Brian Rosner did a very good &lt;a class=&#34;reference external&#34; href=&#34;http://oebfare.com/blog/2008/jan/23/using-git-django-screencast/&#34;&gt;Screencast on installing and using
+Git&lt;/a&gt; with &lt;a class=&#34;reference external&#34; href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt;, there are sadly no Show Notes available. This makes
+installing Django from Git a quite time-consuming task, if you haven&#39;t
+memorized the commands.&lt;/p&gt;
+&lt;p&gt;While writing down the commands for further use, I noticed that there&#39;s a
+faster way than cloning the official SVN repository by using an unofficial
+Git mirror. Later on, I wrote a small Bash script to automate the Django-
+from-Git installation, which you can download below.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;official-svn-repository&#34;&gt;
+&lt;h2&gt;Official SVN repository&lt;/h2&gt;
+&lt;p&gt;First, clone the repository with:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 16)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git svn clone -s http://code.djangoproject.com/svn/django django
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;navigate to the &lt;em&gt;django&lt;/em&gt; folder and run:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 22)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git gc
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;to cleanup unnecessary files and optimize the local repository. Finally,
+reset the master branch to point to trunk:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 29)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git reset --hard origin/master
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;git-mirror&#34;&gt;
+&lt;h2&gt;Git mirror&lt;/h2&gt;
+&lt;p&gt;Instead of going through the time-consuming task of cloning the official SVN
+repository, there&#39;s an faster and easier way. &lt;a class=&#34;reference external&#34; href=&#34;http://spinlock.ch/blog/&#34;&gt;Matthias Kestenholz&lt;/a&gt; was so
+kind to set up a Git mirror for Django, which is updated hourly.&lt;/p&gt;
+&lt;p&gt;Just use the &lt;em&gt;git clone&lt;/em&gt; command, as with any other Git repository:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 42)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git clone git://spinlock.ch/pub/git/django/django.git django.git
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;bash-script&#34;&gt;
+&lt;h2&gt;Bash script&lt;/h2&gt;
+&lt;p&gt;To save some time on the next &amp;quot;Django from Git&amp;quot; installation, I wrote a
+simple Bash script to automate this task.&lt;/p&gt;
+&lt;p&gt;The script will clone the unofficial Git mirror in a folder called
+&lt;em&gt;django.git&lt;/em&gt; and create the necessary symbolic links to install Django:&lt;/p&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;&lt;em&gt;django&lt;/em&gt; folder to the python &lt;em&gt;site-packages&lt;/em&gt; directory.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;django-admin.py&lt;/em&gt; file to a directory on the system path (the script
+uses &lt;em&gt;/usr/bin&lt;/em&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;django-git-install.sh&#34;&gt;Download django-git-install&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After the download, you need to make the script executable:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 63)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    chmod u+x django-git-install.sh
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;The script expects the installation directory as the first parameter:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 69)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: text
+
+    Usage: django-git-install.sh target-directory
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;For example, to install Django into &lt;em&gt;/usr/lib/django.git&lt;/em&gt;, execute:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 75)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    sudo ./django-git-install.sh /usr/lib
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+        <title>Benchmark: MacBook with WD Scorpio hdd</title>
+        <link href="http://arthurkoziel.com/2008/04/22/benchmark-macbook-with-wd-scorpio-hdd/"/>
+        <updated>2008-04-22T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-04-22:/2008/04/22/benchmark-macbook-with-wd-scorpio-hdd/</id>
+        <content type="html" xml:base="/2008/04/22/benchmark-macbook-with-wd-scorpio-hdd/">&lt;p&gt;I recently upgraded my MacBook&#39;s hard drive, the &lt;a class=&#34;reference external&#34; href=&#34;http://www.seagate.com/ww/v/index.jsp?locale=en-US&amp;amp;name=momentus_5400.3_160_gb_sata_hard_drive&amp;amp;vgnextoid=01b98fabfdd83110VgnVCM100000f5ee0a0aRCRD&amp;amp;vgnextchannel=b450d3a0140fc010VgnVCM100000dd04090aRCRD&amp;amp;reqPage=Model&#34;&gt;Seagate Momentus 5400.3
+160GB (ST9160821AS)&lt;/a&gt;, to a &lt;a class=&#34;reference external&#34; href=&#34;http://www.wdc.com/en/products/products.asp?driveid=314&amp;amp;language=en&#34;&gt;Western Digital Scorpio 250GB (WD2500BEVS)&lt;/a&gt; and
+did a quick benchmark to see how much performance would change over the old
+hard drive.&lt;/p&gt;
+&lt;p&gt;Listed below are the average scores of 6 XBench Memory Test runs.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;benchmark&#34;&gt;
+&lt;h2&gt;Benchmark&lt;/h2&gt;
+&lt;img alt=&#34;chart_seq_uw_4k.png&#34; src=&#34;chart_seq_uw_4k.png&#34; /&gt;
+&lt;p&gt;Seagate Momentus: &lt;strong&gt;41.47 MB/sec&lt;/strong&gt;
+Western Digital Scorpio: &lt;strong&gt;55.51 MB/sec&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt=&#34;chart_seq_uw_256k.png&#34; src=&#34;chart_seq_uw_256k.png&#34; /&gt;
+&lt;p&gt;Seagate Momentus: &lt;strong&gt;38.66 MB/sec&lt;/strong&gt;
+Western Digital Scorpio: &lt;strong&gt;51.31 MB/sec&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt=&#34;chart_seq_ur_4k.png&#34; src=&#34;chart_seq_ur_4k.png&#34; /&gt;
+&lt;p&gt;Seagate Momentus: &lt;strong&gt;17.46 MB/sec&lt;/strong&gt;
+Western Digital Scorpio: &lt;strong&gt;13.59 MB/sec&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt=&#34;chart_seq_ur_256k.png&#34; src=&#34;chart_seq_ur_256k.png&#34; /&gt;
+&lt;p&gt;Seagate Momentus: &lt;strong&gt;38.87 MB/sec&lt;/strong&gt;
+Western Digital Scorpio: &lt;strong&gt;53.82 MB/sec&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt=&#34;chart_r_uw_4k.png&#34; src=&#34;chart_r_uw_4k.png&#34; /&gt;
+&lt;p&gt;Seagate Momentus: &lt;strong&gt;0.72 MB/sec&lt;/strong&gt;
+Western Digital Scorpio: &lt;strong&gt;1.88 MB/sec&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt=&#34;chart_r_uw_256k.png&#34; src=&#34;chart_r_uw_256k.png&#34; /&gt;
+&lt;p&gt;Seagate Momentus: &lt;strong&gt;20.81 MB/sec&lt;/strong&gt;
+Western Digital Scorpio: &lt;strong&gt;33.89 MB/sec&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt=&#34;chart_r_ur_4k.png&#34; src=&#34;chart_r_ur_4k.png&#34; /&gt;
+&lt;p&gt;Seagate Momentus: &lt;strong&gt;0.47 MB/sec&lt;/strong&gt;
+Western Digital Scorpio: &lt;strong&gt;0.50 MB/sec&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt=&#34;chart_r_ur_256k.png&#34; src=&#34;chart_r_ur_256k.png&#34; /&gt;
+&lt;p&gt;Seagate Momentus: &lt;strong&gt;16.87 MB/sec&lt;/strong&gt;
+Western Digital Scorpio: &lt;strong&gt;20.65 MB/sec&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;temperature-noise&#34;&gt;
+&lt;h2&gt;Temperature/Noise&lt;/h2&gt;
+&lt;p&gt;The temperature stayed the same, at 32°C. There was no noticeable increase in
+loudness with the new hard drive.&lt;/p&gt;
+&lt;p&gt;In the first moment I noticed that the WD Scorpio is vibrating a little more
+than the Seagate Momentus (the hard drive location is directly under the
+left hand). However, it became pretty normal after half-an-hour.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;conclusion&#34;&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;There was only one test (sequential uncached read with 4K blocks) where the
+WD Scorpio was slightly slower than the Seagate Momentus, but all the other
+tests show a massive improvement.&lt;/p&gt;
+&lt;p&gt;There were quite a few people told me that upgrading the MacBook&#39;s default
+hard drive would definitely be worth it, but I never expected it to be so
+clear. All in all, I&#39;m happy with the new hard drive.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+        <title>RuPy 2008</title>
+        <link href="http://arthurkoziel.com/2008/04/16/rupy-2008/"/>
+        <updated>2008-04-16T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-04-16:/2008/04/16/rupy-2008/</id>
+        <content type="html" xml:base="/2008/04/16/rupy-2008/">&lt;p&gt;Last weekend I attended the RuPy (&lt;a class=&#34;reference external&#34; href=&#34;http://www.ruby-lang.org/&#34;&gt;Ruby&lt;/a&gt; &amp;amp; &lt;a class=&#34;reference external&#34; href=&#34;http://python.org/&#34;&gt;Python&lt;/a&gt;) conference in Poznan
+(Poland).&lt;/p&gt;
+&lt;p&gt;The program was splitted into simultaneously held Ruby and Python talks. For
+example: while the &amp;quot;TDD in Rails&amp;quot; talk in room A, a &amp;quot;TDD in Python&amp;quot; talk was
+held in room B. Language-independent talks, like &amp;quot;Business Natural
+Languages&amp;quot;, were held in one room.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;talks&#34;&gt;
+&lt;h2&gt;Talks&lt;/h2&gt;
+&lt;p&gt;I missed half of &lt;a class=&#34;reference external&#34; href=&#34;http://www.voidspace.org.uk/python/weblog/index.shtml&#34;&gt;Micheal Foord&#39;s&lt;/a&gt; talk on &amp;quot;Programming the Browser with
+IronPython and Silverlight&amp;quot; due to my late arriving. However, the stuff which
+I saw gave me some nice insights into what &lt;a class=&#34;reference external&#34; href=&#34;http://www.codeplex.com/Wiki/View.aspx?ProjectName=IronPython&#34;&gt;IronPython&lt;/a&gt; and &lt;a class=&#34;reference external&#34; href=&#34;http://silverlight.net/&#34;&gt;Silverlight&lt;/a&gt;
+are capable of.&lt;/p&gt;
+&lt;p&gt;Watching the adoption of Silverlight and development of &lt;a class=&#34;reference external&#34; href=&#34;http://www.mono-project.com/Moonlight&#34;&gt;Moonlight&lt;/a&gt;
+(Silverlight for linux) is quite interesting, especially since Microsoft made
+a deal to &lt;a class=&#34;reference external&#34; href=&#34;http://visitmix.com/blogs/News/477/&#34;&gt;put Silverlight on the official Beijing Olympics website&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt=&#34;rupy_2008_1.jpg&#34; src=&#34;rupy_2008_1.jpg&#34; /&gt;
+&lt;img alt=&#34;rupy_2008_2.jpg&#34; src=&#34;rupy_2008_2.jpg&#34; /&gt;
+&lt;img alt=&#34;rupy_2008_3.jpg&#34; src=&#34;rupy_2008_3.jpg&#34; /&gt;
+&lt;p&gt;(Photos taken by &lt;a class=&#34;reference external&#34; href=&#34;http://flickr.com/photos/ukasbadu&#34;&gt;ukasbadu&lt;/a&gt;, more photos are available on flickr under the
+&lt;a class=&#34;reference external&#34; href=&#34;http://flickr.com/photos/tags/rupy2008/&#34;&gt;rupy2008 tag&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;The next talk by &lt;a class=&#34;reference external&#34; href=&#34;http://www.zedshaw.com/&#34;&gt;Zed Shaw&lt;/a&gt; about &amp;quot;Correlations and Conclusions&amp;quot; was really
+funny but also very informative. He benchmarked &lt;a class=&#34;reference external&#34; href=&#34;http://mongrel.rubyforge.org/&#34;&gt;Mongrel&lt;/a&gt; against
+&lt;a class=&#34;reference external&#34; href=&#34;http://webpy.org/&#34;&gt;web.py&lt;/a&gt; and inserted the data into &lt;a class=&#34;reference external&#34; href=&#34;http://www.r-project.org/&#34;&gt;R&lt;/a&gt;. R seems like really nice tool for
+statistical data and once you get used to it&#39;s weird syntax there are
+certainly a lot of things you can do with it.&lt;/p&gt;
+&lt;p&gt;What I didn&#39;t know was that &lt;a class=&#34;reference external&#34; href=&#34;http://www.hpl.hp.com/research/linux/httperf/&#34;&gt;httperf&lt;/a&gt; is more superior to &lt;a class=&#34;reference external&#34; href=&#34;http://httpd.apache.org/docs/2.0/programs/ab.html&#34;&gt;ab&lt;/a&gt; and used for
+serious stuff, while ab is mostly okay for quick&#39;n&#39;dirty benchmarks.&lt;/p&gt;
+&lt;p&gt;The presentation itself was done using latex-beamer and generated out of a
+YAML file - a quite interesting concept which Zed Shaw is going to &lt;a class=&#34;reference external&#34; href=&#34;http://www.zedshaw.com/blog/index.html&#34;&gt;describe
+further in his blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://tartley.com/&#34;&gt;Jonathan Hartley&lt;/a&gt;, who works together with Micheal Foord at &lt;a class=&#34;reference external&#34; href=&#34;http://www.resolversystems.com/&#34;&gt;Resolver
+Systems&lt;/a&gt;, held a great talk about Test-driven development and shared his
+experiences over the past few years. A really interesting fact is the ratio
+of test code to product, which is 4:1 - meaning that there are four lines of
+test code for each line of product code.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://bnl.jayfields.com/&#34;&gt;Business Natural Languages&lt;/a&gt; (a Domain Specific Language for empowering
+subject matter experts) were presented by &lt;a class=&#34;reference external&#34; href=&#34;http://jayfields.com/&#34;&gt;Jay Fields&lt;/a&gt; from &lt;a class=&#34;reference external&#34; href=&#34;http://www.thoughtworks.com/&#34;&gt;ThoughtWorks&lt;/a&gt;.
+The whole point in a BNL is to allow the customer to change the applications
+behaviour without involving the developer. It&#39;s definitely worth a look for
+some bigger projects.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;bottom-line&#34;&gt;
+&lt;h2&gt;Bottom line&lt;/h2&gt;
+&lt;p&gt;The organization was perfect and the chosen topics very interesting. The only
+negative thing was actually lunch, which was horrible (and not very warm).&lt;/p&gt;
+&lt;p&gt;However, it was a great conference which I can only highly recommend to
+everyone interested.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+        <title>Validating Checkboxes and Radiobuttons in Symfony</title>
+        <link href="http://arthurkoziel.com/2008/04/02/validating-checkboxes-and-radiobuttons-in-symfony/"/>
+        <updated>2008-04-02T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-04-02:/2008/04/02/validating-checkboxes-and-radiobuttons-in-symfony/</id>
+        <content type="html" xml:base="/2008/04/02/validating-checkboxes-and-radiobuttons-in-symfony/">&lt;p&gt;Months ago &lt;a class=&#34;reference external&#34; href=&#34;http://symfoniac.wordpress.com/2007/06/06/do-we-need-to-validate-checkboxes/&#34;&gt;I wrote about the validation of checkboxes in Symfony&lt;/a&gt; and how
+it could fill your database with wrong values.&lt;/p&gt;
+&lt;p&gt;I recommended downloading, or writing, a small validator which checked if the
+value of the checkbox is zero or one. But there&#39;s a much simpler solution to
+this problem.&lt;/p&gt;
+&lt;p&gt;If you use a numerical value for your radiobuttons/checkboxes, simply call
+the sfNumberValidator with zero as an minmum and one as an maximum.&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 11)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: text
+
+    tos:
+        sfNumberValidator:
+            min: 0
+            max: 1
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;If you use strings, such as &#39;male&#39; or &#39;female&#39; for a gender radiobutton, the
+sfStringValidator is the right choice:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 21)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: text
+
+    sfStringValidator:
+        values: [&#39;male&#39;, &#39;female&#39;]
+        value_error: Invalid value
+
+&lt;/pre&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+        <title>Symfony + MySQL to Django + PostgreSQL</title>
+        <link href="http://arthurkoziel.com/2008/03/26/symfony-mysql-to-django-postgresql/"/>
+        <updated>2008-03-26T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-03-26:/2008/03/26/symfony-mysql-to-django-postgresql/</id>
+        <content type="html" xml:base="/2008/03/26/symfony-mysql-to-django-postgresql/">&lt;p&gt;While recently migrating &lt;a href=&#34;http://www.tschitschereengreen.com/&#34;&gt;Tschitschereengreen.com&lt;/a&gt; from &lt;a href=&#34;http://www.symfony-project.org/&#34;&gt;Symfony&lt;/a&gt; to &lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt; plus changing the database backend from &lt;a href=&#34;http://www.mysql.com/&#34;&gt;MySQL&lt;/a&gt; to &lt;a href=&#34;http://www.postgresql.com/&#34;&gt;PostgreSQL&lt;/a&gt;, there were mainly two tasks more time-consuming than I&#39;ve had thought beforehand:&lt;/p&gt;
+
+&lt;h3&gt;SQL dump&lt;/h3&gt;
+&lt;p&gt;The old database used a latin1 encoding for the database fields and utf-8 as the server and client connection encoding. With these settings, even trying to get a correctly encoded database dump from &lt;a href=&#34;http://www.phpmyadmin.net/&#34;&gt;phpMyAdmin&lt;/a&gt; is a bad idea.&lt;/p&gt;
+
+&lt;p&gt;Using mysqldump with an explicitly specified character-set is much better:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;mysqldump … –default-character-set&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;latin1 –skip-set-charset dbname &amp;gt; dump.sql&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;MySQL to PostgreSQL with JSON&lt;/h3&gt;
+&lt;p&gt;After realizing that changing a MySQL dump to a valid PostgreSQL dump might take some time, Django’s ability to import and export database fixtures in JSON was a great alternative.&lt;/p&gt;
+
+&lt;p&gt;There were, however, a few corrections needed in order to import the data in PostgreSQL:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;&lt;strong&gt;Date fields&lt;/strong&gt;
+&#34;0000-00-00 00:00:00&#34; might be valid MySQL datetime value, but it ain’t so in PostgreSQL. To import the data it is needed to replace such dates with valid ones like &#34;1970-01-01 00:00:01&#34;.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Boolean fields&lt;/strong&gt;
+MySQL doesn’t support real boolean fields and instead uses tinyint. PostgreSQL, on the other hand, supports real boolean fields and doesn’t accept &#34;0&#34; or &#34;1&#34; as valid boolean values. Replacing &#34;0&#34; with “False&#34; and &#34;1&#34; with &#34;true” will help in this case.&lt;/li&gt;
+&lt;/ol&gt;</content>
+    </entry>
+    <entry>
+        <title>Search Engine Performance: How to Avoid Suffix Queries</title>
+        <link href="http://arthurkoziel.com/2008/02/15/search-engine-performance-howto-avoid-suffix-queries/"/>
+        <updated>2008-02-15T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-02-15:/2008/02/15/search-engine-performance-howto-avoid-suffix-queries/</id>
+        <content type="html" xml:base="/2008/02/15/search-engine-performance-howto-avoid-suffix-queries/">&lt;p&gt;The reason why &lt;a class=&#34;reference external&#34; href=&#34;http://lucene.apache.org/&#34;&gt;Lucene&#39;s&lt;/a&gt; QueryParser doesn&#39;t allow suffix queries
+(&lt;em&gt;&amp;quot;*keyword&amp;quot;&lt;/em&gt;) is the inefficient nature of such query types. In order to
+find a word with a suffix query, it must iterate through every term in the
+index and check if it matches. Depending on the index size, this can
+potentially kill performance and slow down your application. There is,
+however, a simple trick which lets you perform suffix queries without the
+performance disadvantage.&lt;/p&gt;
+&lt;p&gt;Simply store the reverse of the string and transform suffix queries to prefix
+queries against the reverse string.&lt;/p&gt;
+&lt;p&gt;Here&#39;s an example. With two strings in your index&lt;/p&gt;
+&lt;ol class=&#34;upperalpha simple&#34;&gt;
+&lt;li&gt;&amp;quot;Tee House&amp;quot; B) &amp;quot;Waffle House&amp;quot;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;you&#39;re going to store the reverse string too&lt;/p&gt;
+&lt;ol class=&#34;upperalpha simple&#34;&gt;
+&lt;li&gt;&amp;quot;esuoH eeT&amp;quot; B) &amp;quot;esuoH elffaW&amp;quot;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;and transform each suffix query like &amp;quot;&lt;em&gt;House&amp;quot; to &amp;quot;esuoH&lt;/em&gt;&amp;quot;. The results will
+be the same as with a real suffix query - just faster!&lt;/p&gt;
+&lt;p&gt;The disadvantage of this method? denormalization. Since each string is going
+to be stored twice, index size will become bigger.&lt;/p&gt;
+</content>
+    </entry>
+    <entry>
+        <title>Symfony: How Do You Keep Your Model and Database in Sync?</title>
+        <link href="http://arthurkoziel.com/2008/02/03/symfony-how-do-you-keep-your-model-and-database-in-sync/"/>
+        <updated>2008-02-03T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-02-03:/2008/02/03/symfony-how-do-you-keep-your-model-and-database-in-sync/</id>
+        <content type="html" xml:base="/2008/02/03/symfony-how-do-you-keep-your-model-and-database-in-sync/">&lt;p&gt;Symfony has been around for quite some time now and most developers have
+their preferred way of doing things - time to ask a question that has been
+floating around for a very long time:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How do you keep your model and database in sync?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A)&lt;/strong&gt; You build your database in some other tools (e.g. phpMyAdmin) and run
+&lt;em&gt;propel-build-schema&lt;/em&gt; followed by &lt;em&gt;propel-build-model&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;B)&lt;/strong&gt; You write a schema.yml/xml file and run &lt;em&gt;propel-build-all&lt;/em&gt; to generate
+the model, create and insert the sql.&lt;/p&gt;
+&lt;p&gt;Please state your opinion (or maybe a even better way) in the comments below.&lt;/p&gt;
+</content>
+    </entry>
+    <entry>
+        <title>Manage Symfony with Git</title>
+        <link href="http://arthurkoziel.com/2008/02/01/manage-symfony-with-git/"/>
+        <updated>2008-02-01T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-02-01:/2008/02/01/manage-symfony-with-git/</id>
+        <content type="html" xml:base="/2008/02/01/manage-symfony-with-git/">&lt;p&gt;Using &lt;a class=&#34;reference external&#34; href=&#34;http://git.or.cz/&#34;&gt;Git&lt;/a&gt; to manage &lt;a class=&#34;reference external&#34; href=&#34;http://subversion.tigris.org/&#34;&gt;Subversion&lt;/a&gt; repositories has become very popular the
+past days - especially in the &lt;a class=&#34;reference external&#34; href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt; community, where Brian Rosner brought
+this up in a nice &lt;a class=&#34;reference external&#34; href=&#34;http://oebfare.com/blog/2008/jan/23/using-git-django-screencast/&#34;&gt;video tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The biggest advantage of using Git is that you can switch between various
+branches very easily and nearly instantly - even offline. However, Git&#39;s SVN
+support isn&#39;t perfect, so there are also some drawbacks.&lt;/p&gt;
+&lt;p&gt;The method described here is perfect for testing your project with an older
+or even a newer version of &lt;a class=&#34;reference external&#34; href=&#34;http://www.symfony-project.org/&#34;&gt;Symfony&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;installation&#34;&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;If you installed Git over &lt;a class=&#34;reference external&#34; href=&#34;http://www.macports.org/&#34;&gt;MacPorts&lt;/a&gt;, make sure you enabled SVN support:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 17)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    port -v install git-core +svn
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;clone-the-symfony-repository&#34;&gt;
+&lt;h2&gt;Clone the Symfony repository&lt;/h2&gt;
+&lt;p&gt;The following command will clone the &lt;strong&gt;whole&lt;/strong&gt; symfony SVN repository with
+all its revisions (over 7000), tags and branches in a folder called
+&lt;em&gt;symfony.git&lt;/em&gt;. This takes some time, so better do something else. You can,
+however, always cancel and resume the checkout at a later time.&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 29)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git svn clone -s http://svn.symfony-project.com/ symfony.git
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Since all the stuff you just downloaded is taking up quite some space on your
+hard drive, you might want to run &lt;em&gt;git gc&lt;/em&gt; to cleanup unnecessary files and
+optimize the repository (also takes its time but size went from over 200MB to
+just 50MB for me).&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 38)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git gc
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;In Git, HEAD is always set to the branch where the last commit was made, this
+could lead to problems. Set it to the 1.0 branch for now:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 45)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git reset --hard 1.0
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;externals&#34;&gt;
+&lt;h2&gt;Externals&lt;/h2&gt;
+&lt;p&gt;Of course, the SVN implementation in Git isn&#39;t perfect. It mostly shows when
+using &lt;em&gt;svn:externals&lt;/em&gt; which Git doesn&#39;t support yet and therefore
+repositories must be fetched manually. In Symfony&#39;s case this is &lt;em&gt;pake&lt;/em&gt; and
+&lt;em&gt;lime&lt;/em&gt;.&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 57)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git svn clone http://svn.symfony-project.com/tools/pake/tags/RELEASE_1_1_5/lib/pake lib/vendor/pake
+    git svn clone http://svn.symfony-project.com/tools/lime/tags/RELEASE_1_0_4/lib lib/vendor/lime
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;finishing-up&#34;&gt;
+&lt;h2&gt;Finishing up&lt;/h2&gt;
+&lt;p&gt;Create a symlink that links to the Symfony command in our Git repository:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 67)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    sudo ln -s /Users/arthur/Webdev/symfony.git/data/bin/symfony/usr/bin/symfony_dev
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;and checkout the latest stable version of Symfony:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 73)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git checkout tags/RELEASE_1_0_11
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;A few branches, like &lt;em&gt;dwhittle&lt;/em&gt;, might have a slightly different directory
+structure. In this case, just adjust your symlink and eventually check out
+pake and/or lime again - most Symfony branches and tags do have the same
+layout though.&lt;/p&gt;
+&lt;p&gt;Remember to run &lt;em&gt;git svn rebase&lt;/em&gt; (similar to &lt;em&gt;svn update&lt;/em&gt;) once in a while.&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 84)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git svn rebase
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+        <title>How To: Build Your Schema from Multiple Database Connections</title>
+        <link href="http://arthurkoziel.com/2008/01/07/how-to-build-your-schema-from-multiple-database-connections/"/>
+        <updated>2008-01-07T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-01-07:/2008/01/07/how-to-build-your-schema-from-multiple-database-connections/</id>
+        <content type="html" xml:base="/2008/01/07/how-to-build-your-schema-from-multiple-database-connections/">&lt;p&gt;Multiple database connections are a great feature, but if you plan to generate
+a schema for each database, you will most certainly run into some problems
+caused by different  connection names. This Howto will show you how to
+solve the problem.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;connections&#34;&gt;
+&lt;h2&gt;Connections&lt;/h2&gt;
+&lt;p&gt;Let&#39;s start by defining our database connections: open up the file
+&lt;em&gt;config/databases.yml&lt;/em&gt; and create at least two connections with different
+names (like „database” and „database1”).&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 13)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: text
+
+    all:
+      database:
+        class:          sfPropelDatabase
+        param:
+          dsn:          mysql://ptest:ptest&amp;#64;localhost/ptest
+
+    database1:
+        class:          sfPropelDatabase
+        param:
+          dsn:          mysql://ptest:ptest&amp;#64;localhost/ptest2&amp;lt;/pre&amp;gt;
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;schema&#34;&gt;
+&lt;h2&gt;Schema&lt;/h2&gt;
+&lt;p&gt;In the &lt;em&gt;config/propel.ini&lt;/em&gt; configuration file, go to the the sixth line and
+edit the „propel.database.url” setting so that it matches the first
+database connection.&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 33)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: text
+
+    propel.database.url = mysql://ptest:ptest&amp;#64;localhost/ptest
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Now we can execute the &lt;em&gt;propel-build-schema&lt;/em&gt; command.&lt;/p&gt;
+&lt;p&gt;The next little problem is that the schema generator always assumes that a
+connection is named „propel” but since we&#39;ve named it „database”, we need to
+open the just generated schema file and rename the connection (second line).&lt;/p&gt;
+&lt;p&gt;Before we go on and generate the second schema, we first need to rename the
+current one or otherwise symfony would just overwrite it.&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 46)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    mv config/schema.yml config/1_schema.yml
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;(&lt;strong&gt;Note:&lt;/strong&gt; schema files must end with „schema.yml”)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;second-schema&#34;&gt;
+&lt;h2&gt;Second schema&lt;/h2&gt;
+&lt;p&gt;The procedure to generate the schema for the second connection is basically
+the same as for the first one:&lt;/p&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;Edit the „propel.database.url” setting in &lt;em&gt;propel.ini&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Execute &lt;em&gt;propel-build-schema&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Open the schema and change the connection name from „propel&amp;quot; to „database1”.&lt;/li&gt;
+&lt;li&gt;Rename the generated &lt;em&gt;schema.yml&lt;/em&gt; to &lt;em&gt;2_schema.yml&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Finally, we can execute the &lt;em&gt;propel-build-model&lt;/em&gt; command and are ready to use
+our databases.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+        <title>Quick ReCaptcha Tip: Change the Theme</title>
+        <link href="http://arthurkoziel.com/2008/01/07/quick-recaptcha-tip-change-the-theme/"/>
+        <updated>2008-01-07T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-01-07:/2008/01/07/quick-recaptcha-tip-change-the-theme/</id>
+        <content type="html" xml:base="/2008/01/07/quick-recaptcha-tip-change-the-theme/">&lt;p&gt;After a &lt;a href=&#34;http://arthurkoziel.com/2008/01/02/sfrecaptchaplugin-103/#comment-5&#34;&gt;comment from An Vu&lt;/a&gt;, i checked up on how to change reCaptcha themes - turns out it&#39;s really easy. Because many users don&#39;t know how to change the reCaptcha options like the theme or the language, i&#39;m posting this little tip.&lt;/p&gt;
+
+&lt;p&gt;To change the theme and other options, simply create a dictionary called RecaptchaOptions in a script-tag:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;RecaptchaOptions&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;clean&amp;#39;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;For further reference check the &lt;a href=&#34;http://recaptcha.net/apidocs/captcha/client.html#look-n-feel&#34;&gt;API documentation&lt;/a&gt;. ReCaptcha&#39;s like the one &lt;a href=&#34;https://www.facebook.com/r.php&#34;&gt;Facebook uses&lt;/a&gt; in their sign-up, can be created by using the &#39;custom&#39; theme setting.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>sfReCaptchaPlugin 1.0.3</title>
+        <link href="http://arthurkoziel.com/2008/01/02/sfrecaptchaplugin-103/"/>
+        <updated>2008-01-02T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-01-02:/2008/01/02/sfrecaptchaplugin-103/</id>
+        <content type="html" xml:base="/2008/01/02/sfrecaptchaplugin-103/">&lt;p&gt;I just released a new version of the &lt;a href=&#34;http://trac.symfony-project.com/wiki/sfReCaptchaPlugin&#34;&gt;sfReCaptchaPlugin&lt;/a&gt;. The updated version 1.0.3 includes the recaptcha-php-lib 1.10, which mainly fixes some minor XHTML bugs.&lt;/p&gt;
+
+&lt;p&gt;Please note that the plugin does not work with the current symfony 1.1 branch. A update will be available after the first beta release.&lt;/p&gt;
+
+&lt;p&gt;If you&#39;re using a previous version of the plugin, you can update to the latest version by executing:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;symfony plugin-upgrade http://plugins.symfony-project.com/sfReCaptchaPlugin&lt;/pre&gt;
+&lt;/div&gt;</content>
+    </entry>
+    
+</feed>

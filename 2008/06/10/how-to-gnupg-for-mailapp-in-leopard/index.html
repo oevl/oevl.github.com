@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>How to: GnuPG for Mail.app in Leopard — Arthur Koziel</title>
+    <link rel="stylesheet" href="/master2.css" type="text/css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="/feeds/main.xml" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4143429-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+            'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+      })();
+    </script>
+</head>
+<body>
+    <p>
+        <a href="/">Home</a> |
+        <a href="/about/">About</a> | 
+        <a href="/projects/">Projects</a> |
+        <a href="/feeds/main.xml">RSS</a>
+    </p>
+    
+    <h1 id="header">How to: GnuPG for Mail.app in Leopard</h1>
+    <p id="date">
+        Published 10th June 2008
+    </p>
+    <p>While recently trying to install and configure GnuPG for Mail.app under
+Mac OS X 10.5.3, I came across a few issues which unfortunately took a lot more
+time than expected.</p>
+<p>I installed GnuPG through <a class="reference external" href="http://www.macports.org">MacPorts</a>. However, with <a class="reference external" href="http://macgpg.sourceforge.net">MacGPG</a> there's a simpler
+but also more outdated solution available. You can also give a more recent
+<a class="reference external" href="http://www.py-soft.co.uk/~benjamin/download/mac-gpg">MacGPG test-release</a> a try.</p>
+<div class="section" id="gnupg">
+<h2>GnuPG</h2>
+<p>The GnuPG installation via MacPorts is pretty straightforward:</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 14)</p>
+<p>Unknown directive type &quot;sourcecode&quot;.</p>
+<pre class="literal-block">
+.. sourcecode:: bash
+
+    sudo port install gnupg2
+
+</pre>
+</div>
+</div>
+<div class="section" id="pinentry">
+<h2>Pinentry</h2>
+<p>Pinentry doesn't have an official port for Mac OS X, so no dialog will be
+displayed when encrypting or decrypting email. However, Benjamin Donnachie
+was so kind to create an unofficial Pinentry-mac version. You can find it
+in the <a class="reference external" href="http://macgpg2.sourceforge.net/">MacGPG2</a> package.</p>
+<p>After unzipping, the <em>pinentry-mac</em> application needs to be moved or
+copied to the <em>/Applications</em> directory:</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 29)</p>
+<p>Unknown directive type &quot;sourcecode&quot;.</p>
+<pre class="literal-block">
+.. sourcecode:: bash
+
+    mv pinentry-mac.app /Applications/
+
+</pre>
+</div>
+<p>The gpg-agent configuration file (<em>~/.gnupg/gpg-agent.conf</em>) must to be
+modified in order to use the new <em>pinentry-mac</em>:</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 36)</p>
+<p>Unknown directive type &quot;sourcecode&quot;.</p>
+<pre class="literal-block">
+.. sourcecode:: bash
+
+    pinentry-program /Applications/pinentry-mac.app/Contents/MacOS/pinentry-mac
+
+</pre>
+</div>
+<p>To reload the configuration, gpg-agent needs to be restarted:</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 42)</p>
+<p>Unknown directive type &quot;sourcecode&quot;.</p>
+<pre class="literal-block">
+.. sourcecode:: bash
+
+    killall gpg-agent
+    gpg-agent --daemon
+
+</pre>
+</div>
+</div>
+<div class="section" id="gpgmail">
+<h2>GPGMail</h2>
+<p>The latest GPGMail plugin beta for Leopard's Mail.app can be found  <a class="reference external" href="http://www.sente.ch/software/GPGMail/English.lproj/GPGMail.html">here</a>.</p>
+<p>To make use of custom bundles in Mail.app, it needs to be enabled first:</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 54)</p>
+<p>Unknown directive type &quot;sourcecode&quot;.</p>
+<pre class="literal-block">
+.. sourcecode:: bash
+
+    defaults write com.apple.mail EnableBundles -bool yes
+    defaults write com.apple.mail BundleCompatibilityVersion -int 3
+
+</pre>
+</div>
+<p>A &quot;<em>Bundles</em>&quot; directory must be created in <em>~/Library/Mail/</em> and
+the <em>.mailbundle</em> file from the mounted GPGMail dmg needs to be copied there:</p>
+<blockquote>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;string&gt;</tt>, line 62)</p>
+<p>Unknown directive type &quot;sourcecode&quot;.</p>
+<pre class="literal-block">
+.. sourcecode:: bash
+
+    mkdir ~/Library/Mail/Bundles
+    cp -r /Volumes/GPGMail_d53_Leopard/GPGMail.mailbundle ~/Library/Mail/Bundles/
+
+</pre>
+</div>
+</blockquote>
+<p>Upon a restart of Mail.app, a notification should display a small warning about
+missing keys. The <a class="reference external" href="https://help.ubuntu.com/community/GnuPrivacyGuardHowto#head-ac9f3c8c534ef1d05a29738b4c201a59f649fa07">GPG Howto from the ubuntu documentation</a> describes the
+process of generating keys pretty well.</p>
+<img alt="GPGMail Settings Window" src="gpgmailapp.png" />
+<p>That's it, i hope this guide was helpful to some people. You can find my
+current public key on my <a class="reference external" href="http://arthurkoziel.com/about/">About page</a> or download it from a keyserver like
+the <a class="reference external" href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0xEC4E647B83ABBBE7">MIT's Public Key Server</a>.</p>
+</div>
+
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/arthurkozielsblog/embed.js"></script><noscript><p><a href="http://disqus.com/forums/arthurkozielsblog/?url=ref">View the discussion thread.</a></p></noscript><p><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+</body>
+</html>

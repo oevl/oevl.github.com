@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>yml2tex 1.1 released — Arthur Koziel</title>
+    <link rel="stylesheet" href="/master2.css" type="text/css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="/feeds/main.xml" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4143429-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+            'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+      })();
+    </script>
+</head>
+<body>
+    <p>
+        <a href="/">Home</a> |
+        <a href="/about/">About</a> | 
+        <a href="/projects/">Projects</a> |
+        <a href="/feeds/main.xml">RSS</a>
+    </p>
+    
+    <h1 id="header">yml2tex 1.1 released</h1>
+    <p id="date">
+        Published 16th October 2008
+    </p>
+    <p>I just released version 1.1 of <a href="http://code.google.com/p/yml2tex/">yml2tex</a>. The biggest change is that
+the code for the syntax highlighting is now passed directly to
+<a href="http://pygments.org/">pygments</a>, which means that a dependency on <a href="http://www.zedshaw.com/projects/idiopidae/">idiopidae</a>
+and <a href="http://www.zedshaw.com/projects/zapps/index.html">zapps</a> is no longer needed.</p>
+<p>As of version 1.1 the dependencies are:</p>
+<ul>
+<li><a href="http://pyyaml.org/">PyYAML</a></li>
+<li><a href="http://pygments.org/">Pygments</a> (for syntax highlighting)</li>
+</ul>
+<p>I also added a <code>setup.py</code> and uploaded the package to the
+<a href="http://pypi.python.org/pypi">Python Package Index</a>, so you can install the package
+using <code>easy_install</code>:</p>
+<div class="highlight"><pre>easy_install yml2tex</pre></div>
+
+
+<p>There's also now a script being installed in <code>bin/</code> which makes
+it possible to execute the script from anywhere in your python environment:</p>
+<div class="highlight"><pre>yml2tex foobar.yml</pre></div>
+
+
+<p>So that's it. Feel free to file in bug reports or enhancement requests on
+the <a href="http://code.google.com/p/yml2tex/">project's Google Code website</a>.</p>
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/arthurkozielsblog/embed.js"></script><noscript><p><a href="http://disqus.com/forums/arthurkozielsblog/?url=ref">View the discussion thread.</a></p></noscript><p><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+</body>
+</html>

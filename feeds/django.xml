@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Arthur Koziel — Tagged 'django'</title>
+	<link href="http://arthurkoziel.com/feeds\django.xml" rel="self" />
+	<link href="http://arthurkoziel.com/" />
+	<id>http://arthurkoziel.com/feeds\django.xml</id>
+	<updated>2009-07-27T00:00:00Z</updated>
+	<author><name>Arthur Koziel</name></author>
+
+    <entry>
+        <title>Book Review: Django 1.0 Template Development</title>
+        <link href="http://arthurkoziel.com/2009/07/27/book-review-django-10-template-development/"/>
+        <updated>2009-07-27T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2009-07-27:/2009/07/27/book-review-django-10-template-development/</id>
+        <content type="html" xml:base="/2009/07/27/book-review-django-10-template-development/">&lt;a class=&#34;reference external image-reference&#34; href=&#34;http://www.packtpub.com/django-1.0-template-design-practical-guide/book&#34;&gt;&lt;img alt=&#34;Django 1.0 Template Development Book Cover&#34; class=&#34;right&#34; src=&#34;django10templatedev.jpg&#34; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.packtpub.com/django-1.0-template-design-practical-guide/book&#34;&gt;The book&lt;/a&gt; is a comprehensive and practical guide of &lt;a class=&#34;reference external&#34; href=&#34;http://www.djangoproject.com/&#34;&gt;Django&#39;s&lt;/a&gt; template
+system aimed at beginners. Even though the author expects some experience
+with Django or Python I don’t think that’s necessarily the case. Knowledge
+about data structures like Python dictionaries is explained along the way and
+the template syntax is generally easy to understand. It should be noted though
+that the book doesn’t include an installation guide. A working development
+environment with Python and Django installed is required.&lt;/p&gt;
+&lt;p&gt;The writing style is clear and easily readable. There are also a lot of code
+examples to make things clear. Even though the 11 chapters are mostly
+structured around a follow-along example site it doesn’t need to be read
+sequentially.
+Especially the chapters at the end (Pagination, Internationalization, Cache)
+can also be read independently of the others.&lt;/p&gt;
+&lt;p&gt;With &lt;a class=&#34;reference external&#34; href=&#34;http://www.djangoproject.com/weblog/2009/jul/21/rc/&#34;&gt;Django 1.1 around the corner&lt;/a&gt; a book about version 1.0 of
+the framework might seem a little outdated. But don’t worry, the API will
+remain stable until Django 2.0.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;content&#34;&gt;
+&lt;h2&gt;Content&lt;/h2&gt;
+&lt;p&gt;The book starts out by explaining the syntax of the template system and
+illustrating how it fits into the big picture of handling requests in Django.
+The following two chapters then go into more detail about how URLs are mapped
+to views, views are structured and values are passed to the templates.&lt;/p&gt;
+&lt;p&gt;Chapter 4 is a reference of all built-in Tags and Filters. The author decided
+to include it because the &lt;a class=&#34;reference external&#34; href=&#34;http://docs.djangoproject.com/en/dev/ref/templates/builtins/#ref-templates-builtins&#34;&gt;online documentation&lt;/a&gt; didn’t provide
+examples of usage and syntax for all of them.&lt;/p&gt;
+&lt;p&gt;The next two chapters focus on template configuration, loading and inheritance.
+After an explanation of template loaders and the idea behind the extends- and
+block-tag the author goes on to show how alternative templates can be served
+by using template overrides and custom Middleware.&lt;/p&gt;
+&lt;p&gt;Finally, there are chapters on pagination, customizing the admin, caching and
+internationalization. Except for the, very detailed, pagination chapter the
+other don&#39;t go into as much depth as the online documentation but nonetheless
+provide a good overview of the basics. For example, the chapter about
+Internationalization only shows how strings in templates can be marked as
+translatable and message files can be generated. It still doesn’t go into
+as much depth as the &lt;a class=&#34;reference external&#34; href=&#34;http://docs.djangoproject.com/en/dev/topics/i18n/#topics-i18n&#34;&gt;online documentation about i18n&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;verdict&#34;&gt;
+&lt;h2&gt;Verdict&lt;/h2&gt;
+&lt;p&gt;In my opinion, the book is missing a chapter about Forms. Most people dealing
+with templates in Django will at one point or another also want to work
+with Forms, so this would’ve been a good addition.&lt;/p&gt;
+&lt;p&gt;With that said, I’d recommend the book for web designers who are working with
+the template layer but have little or no experience with Django. It doesn’t go
+into much depth but covers enough topics to give the reader a good
+understanding of Django in general.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+        <title>Book Review: Pro Django</title>
+        <link href="http://arthurkoziel.com/2009/03/15/book-review-pro-django/"/>
+        <updated>2009-03-15T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2009-03-15:/2009/03/15/book-review-pro-django/</id>
+        <content type="html" xml:base="/2009/03/15/book-review-pro-django/">&lt;a class=&#34;reference external image-reference&#34; href=&#34;http://www.apress.com/book/view/1430210478&#34;&gt;&lt;img alt=&#34;Pro Django Book Cover&#34; class=&#34;right&#34; src=&#34;prodjango.jpg&#34; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.apress.com/book/view/1430210478&#34;&gt;Pro Django&lt;/a&gt; is a  book for developers who want to deepen their knowledge
+of how &lt;a class=&#34;reference external&#34; href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt; works.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;content&#34;&gt;
+&lt;h2&gt;Content&lt;/h2&gt;
+&lt;p&gt;After the first chapter explains the fundamental &lt;a class=&#34;reference external&#34; href=&#34;http://docs.djangoproject.com/en/dev/misc/design-philosophies/&#34;&gt;design philosophies&lt;/a&gt;,
+the second chapter (&amp;quot;Django is Python&amp;quot;) explicates important Python techniques
+the framework relies on. Metaclasses, Augmenting Functions or Descriptors are
+some of them.&lt;/p&gt;
+&lt;p&gt;They are explained clearly and with a lot of understandable code examples.
+Take Metaclasses for example. The book explains them by using Django&#39;s
+declarative syntax as a sample. I find that by knowing how Django uses them
+it&#39;s much easier to understand Metaclasses, as I now have a good practical
+example to refer to.&lt;/p&gt;
+&lt;p&gt;The following chapters go into modules of the framework, which are &amp;quot;Models&amp;quot;,
+&amp;quot;URLs and Views&amp;quot;, &amp;quot;Forms&amp;quot;, &amp;quot;Templates&amp;quot; and &amp;quot;HTTP&amp;quot;. The basics from the
+&lt;a class=&#34;reference external&#34; href=&#34;http://docs.djangoproject.com/en/dev/&#34;&gt;official documentation&lt;/a&gt; are skipped or just briefly mentioned as this book
+goes into more depth.&lt;/p&gt;
+&lt;p&gt;Parsing the content of a template is a good example for this. The book does
+an excellent job explaining every single step of how a raw string is processed
+through the Lexer and Parser to a set of Python objects that can be rendered.
+I always wondered about nodes and tokens when writing template tags.
+After reading the chapter about templates I finally understood the whole
+process and can now think of even more possible uses.&lt;/p&gt;
+&lt;p&gt;Chapter 8 (&amp;quot;Backend Protocols&amp;quot;) describes Django&#39;s generic API for features
+like databases, authentication or storage. By implementing the protocol of an
+API it&#39;s easy to write backends that, for example, can enable Django to use
+another database engine or use another storage backend (like &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/s3/&#34;&gt;Amazon S3&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Next, the &amp;quot;Common Tools&amp;quot; chapter shows lesser known tools and features of
+Django. It explains which core exception should be thrown in which situation,
+the data structures which are available (MergeDict, MultiValueDict, SortedDict)
+and other interesting things which help keeping the code consistent and easier
+to maintain.&lt;/p&gt;
+&lt;p&gt;The last two chapters &amp;quot;Coordinating Applications&amp;quot; and &amp;quot;Enhancing Applications&amp;quot;
+go step-by-step through the process of creating a Real Estate project and
+enhancing it using the techniques described in this book. The latter chapter
+made me realize how handy all the previously explained low level methods are
+when developing reuseable 3rd party applications for Django. It enables a model
+to keep historical records of its contents by adding just a single line to the
+original application.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;conclusion&#34;&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Overall I found this book to be a great read. I will keep it around as a
+reference for further development and recommend it to every Django developer
+who wants to take a look behind the scenes of Django.&lt;/p&gt;
+&lt;p&gt;Since the book was written for Django 1.0 I think that some people are holding
+back on buying it because of the Django 1.1 release. But there&#39;s no need to
+worry. Backwards-incompatible changes will not happen in the 1.x branch and
+the API will remain stable until Django 2.0. This book should be safe to use
+with every Django 1.x release.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+        <title>Passing MEDIA_URL in Django's 500 error view</title>
+        <link href="http://arthurkoziel.com/2009/01/15/passing-mediaurl-djangos-500-error-view/"/>
+        <updated>2009-01-15T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2009-01-15:/2009/01/15/passing-mediaurl-djangos-500-error-view/</id>
+        <content type="html" xml:base="/2009/01/15/passing-mediaurl-djangos-500-error-view/">&lt;p&gt;The default HTTP 500 error view in Django doesn&#39;t pass the RequestContext to
+templates and thus variables like MEDIA_URL will not be available. 
+If, for example, your error 500 template extends your site&#39;s base template, 
+the URI to the CSS style sheets won&#39;t be right.&lt;/p&gt;
+&lt;p&gt;Django doesn&#39;t include the RequestContext per default since in case of an HTTP
+500 error it&#39;s better to 
+pass less variables to lessen the chance of additional errors.
+However, changing the default error 500 view in Django to pass the 
+MEDIA_URL in the context is easy. &lt;/p&gt;
+&lt;h3&gt;Modifying the default handler&lt;/h3&gt;
+&lt;p&gt;We first need to write a new view which will replace the default one. The
+following is identical to the default view but with the MEDIA_URL added
+to the context:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;from django.conf import settings
+from django import http
+from django.template import Context, loader
+
+def server_error(request, template_name=&#39;500.html&#39;):
+    &amp;quot;&amp;quot;&amp;quot;
+    500 error handler.
+
+    Templates: `500.html`
+    Context:
+        MEDIA_URL
+            Path of static media (e.g. &amp;quot;media.example.org&amp;quot;)
+    &amp;quot;&amp;quot;&amp;quot;
+    t = loader.get_template(template_name) # You need to create a 500.html template.
+    return http.HttpResponseServerError(t.render(Context({
+        &#39;MEDIA_URL&#39;: settings.MEDIA_URL
+    })))&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The best place for this view is the &lt;em&gt;views.py&lt;/em&gt; file in the project&#39;s root
+directory.&lt;/p&gt;
+&lt;p&gt;To tell Django to use our view for the HTTP 500 error rather than 
+the default one, we need to set the &lt;em&gt;handler500&lt;/em&gt; variable in the &lt;em&gt;urls.py&lt;/em&gt;
+file to point to the new view:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;handler500 = &#39;projectname.views.server_error&#39;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And that&#39;s basically it, we&#39;ve replaced the default error 500 view with our
+own one that passes the MEDIA_URL in the context. &lt;/p&gt;
+&lt;p&gt;To see the error 500 page in action, we just need to create a url pattern
+for it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;if settings.DEBUG:
+    urlpatterns += patterns(&#39;&#39;,
+        (r&#39;^500/$&#39;, &#39;projectname.views.server_error&#39;),
+    )&lt;/pre&gt;&lt;/div&gt;</content>
+    </entry>
+    <entry>
+        <title>Translating the Django documentation into German</title>
+        <link href="http://arthurkoziel.com/2008/12/14/translating-django-documentation-german/"/>
+        <updated>2008-12-14T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-12-14:/2008/12/14/translating-django-documentation-german/</id>
+        <content type="html" xml:base="/2008/12/14/translating-django-documentation-german/">&lt;p&gt;The German Django documentation got outdated after the original documentation
+was refactored because there were too many changes to track. Now, to follow
+the new structure, we started to translate and reorganize the documentation
+from scratch.&lt;/p&gt;
+&lt;p&gt;Help is always appreciated. Here&#39;s a little guide if you want to help
+translating the Django documentation but don&#39;t know how to start.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fork the &lt;a href=&#34;http://github.com/zerok/django-docs-de/tree/master&#34;&gt;main django-de-docs&lt;/a&gt; repository.&lt;/strong&gt; We
+    mostly work in the &#34;releases/1.0.X&#34; branch. If you are unsure about working
+    with Git&#39;s remote branches, see below for a quick guide.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://code.djangoproject.com/browser/django/tags/releases/1.0.2/docs/&#34;&gt;Select a document&lt;/a&gt; you want to translate.&lt;/strong&gt;
+    &lt;a href=&#34;http://github.com/zerok/django-docs-de/tree/releases/1.0.X&#34;&gt;Browse the repository&lt;/a&gt; to see which documents are already
+    translated. The &lt;a href=&#34;http://github.com/zerok/django-docs-de/wikis/wer-macht-was&#34;&gt;&#34;Wer macht was?&#34;&lt;/a&gt;-Wikipage shows what people
+    are currently working on.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Translate.&lt;/strong&gt;
+    &lt;a href=&#34;https://www.django-de.org/trac/browser/docs/translations/trunk/&#34;&gt;Browse the old subversion repository&lt;/a&gt; and look if your document
+    has been translated before the docs-refactoring. You might reuse some
+    parts of the old translation. If you&#39;re unsure about a translation of
+    a technical term, take a look at the &lt;a href=&#34;https://www.django-de.org/trac/wiki/PortalÜbersetzung/Glossar&#34;&gt;glossary&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Submit your translation.&lt;/strong&gt;
+    Please make sure to commit your changes in the &#34;releases/1.0.X&#34; branch.
+    After you&#39;ve pushed into your forked repository, you can send
+    &lt;a href=&#34;http://github.com/zerok&#34;&gt;zerok&lt;/a&gt; a pull request.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Also, feel free to submit corrections to existing documents.&lt;/p&gt;
+&lt;h3&gt;Working with Git remote branches&lt;/h3&gt;
+&lt;p&gt;Adding the original repository as a remote will make later operations a little 
+easier as you can refer to it with an identifier instead of providing the
+repository url. The following command will use &#34;upstream&#34; as an identifier.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;git remote add upstream git://github.com/zerok/django-docs-de.git&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;As I already mentioned, most work happens in the &#34;releases/1.0.X&#34; branch.
+Create a same-named local branch which will track (push and pull) from the
+remote origin.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;git branch --track releases/1.0.X origin/releases/1.0.X&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now you can checkout the branch and start working. Once you&#39;ve finished,
+simple commit your changes and &#34;git push&#34; to your remote branch.&lt;/p&gt;
+&lt;h3&gt;Upstream Changes&lt;/h3&gt;
+&lt;p&gt;If changes were applied upstream and you want to merge them into your local 
+branch, you just need to pull from upstream (which will fetch and merge
+the data), eventually resolve conflicts, and push it to your remote repository.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;git pull upstream releases/1.0.X
+git push&lt;/pre&gt;&lt;/div&gt;</content>
+    </entry>
+    <entry>
+        <title>PyCon UK 2008</title>
+        <link href="http://arthurkoziel.com/2008/09/23/pycon-uk-2008/"/>
+        <updated>2008-09-23T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-09-23:/2008/09/23/pycon-uk-2008/</id>
+        <content type="html" xml:base="/2008/09/23/pycon-uk-2008/">&lt;p&gt;I attended the &lt;a href=&#34;http://www.pyconuk.org/&#34;&gt;PyCon UK 2008&lt;/a&gt; in Birmingham about a week ago (12th to 14th September).&lt;/p&gt;
+
+&lt;p&gt;One thing I really liked about the conference is that there weren&#39;t many people with purely commercial interests around. Most of the attendants were very passionate Python developers who just wanted to meet and learn new stuff.
+&lt;a href=&#34;http://flickr.com/photos/adewale_oshineye/2857139843/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3173/2857139843_70e52b3756.jpg&#34; alt=&#34;Mark Fink giving his talk&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Talks&lt;/h3&gt;
+&lt;p&gt;There were a lot of interesting talks, but if I personally had to choose the most interesting one I would go with &lt;a href=&#34;http://www.pyconuk.org/talk_abstracts.html#49&#34;&gt;&#34;Core Python Containers -- Under the Hood&#34;&lt;/a&gt; from Raymond D. Hettinger.&lt;/p&gt;
+
+&lt;p&gt;The talk was basically about the implementation of lists, tuples, dicts, sets and deques. Under the hood Python uses a fixed-length array of pointers and may call realloc() or memcpy() when it grows or shrinks.&lt;/p&gt;
+
+&lt;p&gt;To minimize the reallocation calls, Python uses an overallocation strategy for the size of the array, so that it always has some space left.&lt;/p&gt;
+
+&lt;p&gt;For example a list with just one item in it will have 4 spaces allocated. If you keep adding items to the list a realloc() gets called for the fifth item and the list will have 8 spaces allocated.&lt;/p&gt;
+
+&lt;p&gt;The growth pattern is 0, 4, 8, 16, 25, 35, 46, 58, 72, 88, ...&lt;/p&gt;
+
+&lt;p&gt;This is just one example from the talk, there were a lot more in his presentation. If you have some time be sure to check out &lt;a href=&#34;http://www.pycon.it/static/pycon2/slides/containers.ppt&#34;&gt;this older presentation [ppt]&lt;/a&gt;, which looks identical.&lt;/p&gt;
+
+&lt;h3&gt;Conference Dinner&lt;/h3&gt;
+&lt;p&gt;One of the highlights was the conference dinner where &lt;a href=&#34;http://www.odyssey.dial.pipex.com/&#34;&gt;Andrew Lound&lt;/a&gt; gave an awesome presentation about the &lt;a href=&#34;http://en.wikipedia.org/wiki/Lunar_Society&#34;&gt;Lunar Society&lt;/a&gt;, which were a group of intellectuals who met during full moon in Birmingham in the 18th century.
+&lt;a href=&#34;http://flickr.com/photos/zerok/2855035443/&#34;&gt;&lt;img src=&#34;http://farm4.static.flickr.com/3234/2855035443_f74946b063.jpg&#34; alt=&#34;The conference dinner&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Since this was my first time in Birmingham it was quite nice to see a little bit about the history of the city.&lt;/p&gt;
+
+&lt;h3&gt;Django Sprint&lt;/h3&gt;
+&lt;p&gt;On Monday a little Django sprint took place at the conference venue. We were about 10 people sitting in a small circle and hacking away at various tickets. &lt;a href=&#34;http://www.jacobian.org/&#34;&gt;Jacob&lt;/a&gt; did a great job with explaining things so that even I could start working on some tickets.&lt;/p&gt;
+
+&lt;p&gt;Oh, if you&#39;re the guy who bought snacks for everyone and are reading this: thank you very much.&lt;/p&gt;
+
+&lt;p&gt;EuroPython 2009 will also take place in Birmingham and I&#39;m definitely looking forward to it. It&#39;s a great city and the people are nice—there&#39;s no excuse not to come ;-). See you next year.&lt;/p&gt;
+&lt;p&gt;PS.: Traditional english breakfast might sound horrible but actually isn&#39;t that bad.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Automatical superuser creation with Django</title>
+        <link href="http://arthurkoziel.com/2008/09/04/automatical-superuser-creation-django/"/>
+        <updated>2008-09-04T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-09-04:/2008/09/04/automatical-superuser-creation-django/</id>
+        <content type="html" xml:base="/2008/09/04/automatical-superuser-creation-django/">&lt;p&gt;I delete and sync my database fairly often during development with Django because the &#34;syncdb&#34; command will not alter the table in the database after, for example, adding a new field to the corresponding model.&lt;/p&gt;
+
+&lt;p&gt;The problem I have with this is typing in the same data for a superuser over and over again. It&#39;s a very repetitive task, so I was grateful when I heard this tip from my co-worker Sebastian today.&lt;/p&gt;
+&lt;h3&gt;Superuser from fixture&lt;/h3&gt;
+
+&lt;p&gt;We&#39;re going to automatically load the superuser from a fixture. To do this, dump the data of the auth module into a fixture called &#34;initial_data.json&#34;:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;./manage.py dumpdata --indent&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;2 auth &amp;gt; initial_data.json
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You&#39;ll see that along the superuser that you&#39;ve already created during the usual &#34;syncdb&#34; execution, a few other credentials got dumped. Since we only need the data for the superuser, delete the irrelevant stuff. The file should look like this:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;pk&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;model&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;auth.user&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;fields&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;username&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;arthur&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;first_name&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;last_name&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;is_active&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;is_superuser&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;is_staff&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;last_login&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;2008-09-04 14:25:29&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;groups&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[],&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;user_permissions&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[],&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;password&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;sha1$fooobar123&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;email&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;arthur@arthurkoziel.com&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;date_joined&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;2008-09-04 14:25:29&amp;quot;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The fixture called &#34;initial_data.json&#34; will automatically get loaded by Django every time you execute the &#34;syncdb&#34; command.&lt;/p&gt;
+
+&lt;p&gt;Delete your database and try to run the &#34;syncdb&#34; command with the &#34;--noinput&#34; option passed (it will prevent the script to go into interactive mode):&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;./manage.py syncdb --noinput
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;There shouldn&#39;t be a prompt for a superuser and you should see a message at the end of the output indicating that your fixture was loaded.&lt;/p&gt;
+&lt;h3&gt;Admin login&lt;/h3&gt;
+
+&lt;p&gt;Not having to create a superuser is great, but if you&#39;re working a lot with Django&#39;s contrib.admin application, you&#39;ll need to log-in again every time you sync the database and load the user fixture. Another repetitive task that can be eliminated:&lt;/p&gt;
+
+&lt;p&gt;After logging in into the admin backend, dump the data of the &#34;session&#34; table into stdout:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;./manage.py dumpdata --indent&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;2 sessions
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Copy the dictionary containing the session for your superuser and append it to the list in &#34;initial_data.json&#34; like this:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;pk&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;model&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;auth.user&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;fields&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;username&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;arthur&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;first_name&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;last_name&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;is_active&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;is_superuser&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;is_staff&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;last_login&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;2008-09-04 14:25:29&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;groups&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[],&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;user_permissions&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[],&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;password&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;sha1$foobarbarfoo&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;email&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;arthur@arthurkoziel.com&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;date_joined&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;2008-09-04 14:25:29&amp;quot;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;pk&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;9aadfe1de61b0937fasd684221f03&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;model&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;sessions.session&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+    &lt;span class=&#34;s&#34;&gt;&amp;quot;fields&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;expire_date&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;2008-10-20 14:34:59&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+      &lt;span class=&#34;s&#34;&gt;&amp;quot;session_data&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;foobar123&amp;quot;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You might want to increase the &#34;expire_date&#34; a little bit, so that your session won&#39;t expire.&lt;/p&gt;
+&lt;p&gt;Now every time you delete and sync your database (remember to pass &#34;--noinput&#34;), Django will automatically load the superuser and it&#39;s associated session from the fixture. You won&#39;t have to manually type in the data for the user and log-in into the backend everytime anymore.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Handling static files with Django</title>
+        <link href="http://arthurkoziel.com/2008/09/02/handling-static-files-django/"/>
+        <updated>2008-09-02T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-09-02:/2008/09/02/handling-static-files-django/</id>
+        <content type="html" xml:base="/2008/09/02/handling-static-files-django/">&lt;p&gt;When I started developing in &lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt;, I had absolutely no idea about how to handle static media files. The official documentation is very sparse on this particular topic and the only fact I got out of it is that Django shouldn&#39;t serve them directly as it is very inefficient and insecure (James Bennett &lt;a href=&#34;http://www.b-list.org/weblog/2008/jun/23/media/&#34;&gt;wrote a great post about this topic&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve learned a lot during the past months and in this post I&#39;m going to explain how I handle static media files.&lt;/p&gt;
+&lt;h3&gt;Development&lt;/h3&gt;
+
+&lt;p&gt;You might&#39;ve noticed the MEDIA_URL variable in your project&#39;s settings.py. It specifies the URL where the files should be served from. I prefer to create a &lt;em&gt;&#34;static_media&#34;&lt;/em&gt; directory in the project&#39;s one and point the MEDIA_URL to it:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;n&#34;&gt;MEDIA_URL&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;/static_media/&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In most cases it&#39;s okay to serve static files through Django during development. The following code-snippet will serve the &lt;em&gt;&#34;static_media/&#34;&lt;/em&gt; directory through Django&#39;s static view.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;settings&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DEBUG&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;urlpatterns&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;patterns&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#39;django.views.static&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;r&amp;#39;^static_media/(?P&amp;lt;path&amp;gt;.*)$&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
+        &lt;span class=&#34;s&#34;&gt;&amp;#39;serve&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;s&#34;&gt;&amp;#39;document_root&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;/path/to/static_media&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+        &lt;span class=&#34;s&#34;&gt;&amp;#39;show_indexes&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;bp&#34;&gt;True&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}),)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;em&gt;&#34;static_media/&#34;&lt;/em&gt; directory is where you can put all your media files. When making use of them, make sure you output the MEDIA_URL before it. For example, to include a stylesheet in a template:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;stylesheet&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;{{ MEDIA_URL }}base_min.css&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;media=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;screen&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Production&lt;/h3&gt;
+
+&lt;p&gt;After you&#39;ve uploaded the files to a server, make sure to adjust the settings.py file in your production environment and point the MEDIA_URL to the URL where the media files are.&lt;/p&gt;
+
+&lt;p&gt;In my case, I pointed the MEDIA_URL to &lt;em&gt;&#34;http://media.arthurkoziel.com/&#34;&lt;/em&gt; which is simply a directory served by an separate apache process.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;n&#34;&gt;MEDIA_URL&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;http://media.example.org/&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now your media files will be served by Django&#39;s static view in your development environment and though another webserver/process in the production environment.&lt;/p&gt;
+
+&lt;p&gt;The above example with the css file will resolve into the following URL&#39;s:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Development&lt;/strong&gt;: /static_media/base_min.css&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Production&lt;/strong&gt;: http://media.example.org/base_min.css&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Simply by changing the MEDIA_URL. Remember to sync your local static directory with your production one.&lt;/p&gt;
+
+&lt;p&gt;That&#39;s it, I hope at least some people found this post useful.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Switching to Django, PostgreSQL and WebFaction</title>
+        <link href="http://arthurkoziel.com/2008/08/18/switching-django-postgresql-and-webfaction/"/>
+        <updated>2008-08-18T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-08-18:/2008/08/18/switching-django-postgresql-and-webfaction/</id>
+        <content type="html" xml:base="/2008/08/18/switching-django-postgresql-and-webfaction/">&lt;p&gt;The blog is now powered by a custom Django application instead of Wordpress.&lt;/p&gt;
+
+&lt;p&gt;Most of the URI&#39;s stay the same, only the &lt;a href=&#34;http://arthurkoziel.com/feeds/entries/&#34;&gt;feed address has changed&lt;/a&gt;. Be sure to update your feed reader if you want to read more about, well... stuff I do.&lt;/p&gt;
+
+&lt;p&gt;Comments now use &lt;a href=&#34;http://code.google.com/p/django-threadedcomments/&#34;&gt;django-threadedcomments&lt;/a&gt;, which enables the possibility of replying to specific comments and displaying them in a tree-like manner.&lt;/p&gt;
+
+&lt;p&gt;While migrating the entries and comments from Wordpress (&lt;a href=&#34;http://jannisleidel.com/&#34;&gt;Jannis&lt;/a&gt; wrote a &lt;a href=&#34;http://dpaste.de/195/&#34;&gt;little script&lt;/a&gt; for that, which works great with a few adjustments), I also took the chance to switch the database system from MySQL to PostgreSQL. There&#39;s no particular reason why I switched to Postgres, MySQL is still a good database system, I just wanted to try something new.&lt;/p&gt;
+
+&lt;h3&gt;Hosting&lt;/h3&gt;
+&lt;p&gt;Since &lt;a href=&#34;http://www.dreamhost.com/&#34;&gt;Dreamhost&lt;/a&gt;, the old hosting provider, is just horrible for running Django applications (look at the low &lt;a href=&#34;http://djangofriendly.com/hosts/dreamhost/&#34;&gt;DjangoFriendly score&lt;/a&gt;), I made the switch to &lt;a href=&#34;http://www.webfaction.com/&#34;&gt;WebFaction&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m very happy with their hosting so far. The blog runs on a recent Django trunk checkout and is served by Apache2 with mod_wsgi. Deploying the Django project only took me about 30 minutes yesterday evening (and this was the first time I&#39;ve used WebFaction).&lt;/p&gt;
+
+&lt;h3&gt;Bugs&lt;/h3&gt;
+
+&lt;p&gt;If you encounter problems feel free to send me an email or write a comment under this entry.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Book Review: Practical Django Projects</title>
+        <link href="http://arthurkoziel.com/2008/08/08/book-review-practical-django-projects/"/>
+        <updated>2008-08-08T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-08-08:/2008/08/08/book-review-practical-django-projects/</id>
+        <content type="html" xml:base="/2008/08/08/book-review-practical-django-projects/">&lt;p&gt;&lt;img class=&#34;right&#34; src=&#34;http://media.arthurkoziel.com/img/book_cover/practical_django_projects.jpg&#34; alt=&#34;&#34;&gt;I recently bought &lt;a href=&#34;http://www.amazon.com/dp/1590599969&#34;&gt;Practical Django Projects&lt;/a&gt;. The book mainly goes through the development of three applications:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;cms&lt;/strong&gt;: A simple content management system&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&#34;http://code.google.com/p/coltrane-blog/&#34;&gt;&lt;strong&gt;coltrane&lt;/strong&gt;&lt;/a&gt;: A blogging application&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://code.google.com/p/cab/&#34;&gt;cab&lt;/a&gt;&lt;/strong&gt;: The code-sharing application behind &lt;a href=&#34;http://www.djangosnippets.org/&#34;&gt;djangosnippets.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It shows how &lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt; can ease the development by taking care of tedious and repetitive tasks and make it fun again. It also encourages and gives some great examples on how one can write flexible and reusable applications that can be used among various projects.&lt;/p&gt;
+
+&lt;p&gt;The first project is more of an introduction to Django and shows how to write a simple cms by making use of the bundled &lt;a href=&#34;http://www.djangoproject.com/documentation/flatpages/&#34;&gt;Flatpage&lt;/a&gt; application. The other two projects also go into more advanced things like writing custom Model Managers, Signals or Template Tags.&lt;/p&gt;
+&lt;h3&gt;Newforms-Admin/Signals Refactoring&lt;/h3&gt;
+&lt;p&gt;Since Practical Django Projects was published before the &lt;a href=&#34;http://code.djangoproject.com/changeset/7967&#34;&gt;Newforms-admin branch was merged into trunk&lt;/a&gt; and &lt;a href=&#34;http://code.djangoproject.com/changeset/8223&#34;&gt;Signals were refactored&lt;/a&gt;, there are a few outdated code examples in the book.&lt;/p&gt;
+
+&lt;p&gt;While there are a few pages about how to customize the admin interface, it doesn&#39;t focus on it and therefore isn&#39;t really a big problem. The few admin-specific code examples in the book can easily be translated by looking at the &lt;a href=&#34;http://www.djangoproject.com/documentation/admin/&#34;&gt;admin documentation&lt;/a&gt; and the &lt;a href=&#34;http://code.djangoproject.com/wiki/NewformsHOWTO&#34;&gt;NewformHOWTO wiki page.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As for Signals, I think that the important part is to understand how they fundamentally work and this book explains it very well. To use the examples in the book, there&#39;s the &lt;a href=&#34;http://code.djangoproject.com/wiki/Signals#Refactoringdifferences&#34;&gt;Signals page on Django&#39;s wiki&lt;/a&gt; which shows the specific API changes.&lt;/p&gt;
+
+&lt;p&gt;There&#39;s also the possibility of checking out the &lt;a href=&#34;http://code.djangoproject.com/browser/django/tags/notable_moments/pre-newforms-admin&#34;&gt;pre-newforms-admin&lt;/a&gt; tag from Django&#39;s Subversion repository which will give you a revision of Django before newforms-admin was merged, and the signal-refactoring took place. The code examples in the book should work without a problem by using this revision.&lt;/p&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;I recommend this book to everyone who knows a little Python and has heard of Django but hasn&#39;t really had the time or ideas to write some (reusable) applications with it. It lies a great foundation and shows the fundamental techniques to work with Django, so that it shouldn&#39;t be a problem to implement own ideas in the future.&lt;/p&gt;</content>
+    </entry>
+    <entry>
+        <title>Secure authentication cookies with Django</title>
+        <link href="http://arthurkoziel.com/2008/05/15/secure-authentication-cookies-with-django/"/>
+        <updated>2008-05-15T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-05-15:/2008/05/15/secure-authentication-cookies-with-django/</id>
+        <content type="html" xml:base="/2008/05/15/secure-authentication-cookies-with-django/">&lt;p&gt;Some time ago &lt;a href=&#34;http://www.cse.msu.edu/~alexliu/home.html&#34;&gt;Alex X. Liu&lt;/a&gt; published a research paper on &lt;a href=&#34;http://www.cse.msu.edu/~alexliu/publications/Cookie/cookie.pdf&#34;&gt;secure cookie protocols&lt;/a&gt;. I tried to implement the protocol in Python, but sadly had to remove some fields from the protocol. You can &lt;a href=&#34;http://media.arthurkoziel.com/django/authcookie.zip&#34;&gt;download it here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Changes&lt;/h3&gt;
+&lt;p&gt;This is the original protocol:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;user name|expiration time|(data)k|HMAC(user name|expiration time|data|session key, k)
+where k=HMAC(user name|expiration time, sk)
+and sk=secret server key&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I removed &lt;em&gt;(data)k&lt;/em&gt; and &lt;em&gt;session key&lt;/em&gt;, which changes the protocol to:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;user name|expiration time|HMAC(user name|expiration time, k)
+where k=HMAC(user name|expiration time, sk)
+and sk=secret server key&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The data field was removed because I couldn&#39;t find a good two way encryption library for Python, and the session key was removed due to the lack of SSL.&lt;/p&gt;
+
+&lt;p&gt;The new structure is similar to the one used for the authentication in the backend of the recently released &lt;a href=&#34;http://trac.wordpress.org/ticket/5367&#34;&gt;Wordpress 2.5&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Usage&lt;/h3&gt;
+&lt;p&gt;To create a cookie in Django, use the &lt;em&gt;set_cookie&lt;/em&gt; method of the response object:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;&lt;span class=&#34;n&#34;&gt;cookie&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;myutils&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;generate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#39;arthur&#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1210708139&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;response&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;render_to_response&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#39;index.html&#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;response&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;set_cookie&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#39;mycookie&#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cookie&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;response&lt;/span&gt;&lt;/pre&gt;
+&lt;/div&gt;</content>
+    </entry>
+    <entry>
+        <title>Install Django with Git</title>
+        <link href="http://arthurkoziel.com/2008/04/30/install-django-with-git/"/>
+        <updated>2008-04-30T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-04-30:/2008/04/30/install-django-with-git/</id>
+        <content type="html" xml:base="/2008/04/30/install-django-with-git/">&lt;p&gt;Although Brian Rosner did a very good &lt;a class=&#34;reference external&#34; href=&#34;http://oebfare.com/blog/2008/jan/23/using-git-django-screencast/&#34;&gt;Screencast on installing and using
+Git&lt;/a&gt; with &lt;a class=&#34;reference external&#34; href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt;, there are sadly no Show Notes available. This makes
+installing Django from Git a quite time-consuming task, if you haven&#39;t
+memorized the commands.&lt;/p&gt;
+&lt;p&gt;While writing down the commands for further use, I noticed that there&#39;s a
+faster way than cloning the official SVN repository by using an unofficial
+Git mirror. Later on, I wrote a small Bash script to automate the Django-
+from-Git installation, which you can download below.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;official-svn-repository&#34;&gt;
+&lt;h2&gt;Official SVN repository&lt;/h2&gt;
+&lt;p&gt;First, clone the repository with:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 16)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git svn clone -s http://code.djangoproject.com/svn/django django
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;navigate to the &lt;em&gt;django&lt;/em&gt; folder and run:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 22)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git gc
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;to cleanup unnecessary files and optimize the local repository. Finally,
+reset the master branch to point to trunk:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 29)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git reset --hard origin/master
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;git-mirror&#34;&gt;
+&lt;h2&gt;Git mirror&lt;/h2&gt;
+&lt;p&gt;Instead of going through the time-consuming task of cloning the official SVN
+repository, there&#39;s an faster and easier way. &lt;a class=&#34;reference external&#34; href=&#34;http://spinlock.ch/blog/&#34;&gt;Matthias Kestenholz&lt;/a&gt; was so
+kind to set up a Git mirror for Django, which is updated hourly.&lt;/p&gt;
+&lt;p&gt;Just use the &lt;em&gt;git clone&lt;/em&gt; command, as with any other Git repository:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 42)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    git clone git://spinlock.ch/pub/git/django/django.git django.git
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;bash-script&#34;&gt;
+&lt;h2&gt;Bash script&lt;/h2&gt;
+&lt;p&gt;To save some time on the next &amp;quot;Django from Git&amp;quot; installation, I wrote a
+simple Bash script to automate this task.&lt;/p&gt;
+&lt;p&gt;The script will clone the unofficial Git mirror in a folder called
+&lt;em&gt;django.git&lt;/em&gt; and create the necessary symbolic links to install Django:&lt;/p&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;&lt;em&gt;django&lt;/em&gt; folder to the python &lt;em&gt;site-packages&lt;/em&gt; directory.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;django-admin.py&lt;/em&gt; file to a directory on the system path (the script
+uses &lt;em&gt;/usr/bin&lt;/em&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;django-git-install.sh&#34;&gt;Download django-git-install&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After the download, you need to make the script executable:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 63)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    chmod u+x django-git-install.sh
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;The script expects the installation directory as the first parameter:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 69)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: text
+
+    Usage: django-git-install.sh target-directory
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;For example, to install Django into &lt;em&gt;/usr/lib/django.git&lt;/em&gt;, execute:&lt;/p&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 75)&lt;/p&gt;
+&lt;p&gt;Unknown directive type &amp;quot;sourcecode&amp;quot;.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. sourcecode:: bash
+
+    sudo ./django-git-install.sh /usr/lib
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+        <title>Symfony + MySQL to Django + PostgreSQL</title>
+        <link href="http://arthurkoziel.com/2008/03/26/symfony-mysql-to-django-postgresql/"/>
+        <updated>2008-03-26T00:00:00Z</updated>
+        <id>tag:arthurkoziel.com,2008-03-26:/2008/03/26/symfony-mysql-to-django-postgresql/</id>
+        <content type="html" xml:base="/2008/03/26/symfony-mysql-to-django-postgresql/">&lt;p&gt;While recently migrating &lt;a href=&#34;http://www.tschitschereengreen.com/&#34;&gt;Tschitschereengreen.com&lt;/a&gt; from &lt;a href=&#34;http://www.symfony-project.org/&#34;&gt;Symfony&lt;/a&gt; to &lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt; plus changing the database backend from &lt;a href=&#34;http://www.mysql.com/&#34;&gt;MySQL&lt;/a&gt; to &lt;a href=&#34;http://www.postgresql.com/&#34;&gt;PostgreSQL&lt;/a&gt;, there were mainly two tasks more time-consuming than I&#39;ve had thought beforehand:&lt;/p&gt;
+
+&lt;h3&gt;SQL dump&lt;/h3&gt;
+&lt;p&gt;The old database used a latin1 encoding for the database fields and utf-8 as the server and client connection encoding. With these settings, even trying to get a correctly encoded database dump from &lt;a href=&#34;http://www.phpmyadmin.net/&#34;&gt;phpMyAdmin&lt;/a&gt; is a bad idea.&lt;/p&gt;
+
+&lt;p&gt;Using mysqldump with an explicitly specified character-set is much better:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre&gt;mysqldump … –default-character-set&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;latin1 –skip-set-charset dbname &amp;gt; dump.sql&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;MySQL to PostgreSQL with JSON&lt;/h3&gt;
+&lt;p&gt;After realizing that changing a MySQL dump to a valid PostgreSQL dump might take some time, Django’s ability to import and export database fixtures in JSON was a great alternative.&lt;/p&gt;
+
+&lt;p&gt;There were, however, a few corrections needed in order to import the data in PostgreSQL:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;&lt;strong&gt;Date fields&lt;/strong&gt;
+&#34;0000-00-00 00:00:00&#34; might be valid MySQL datetime value, but it ain’t so in PostgreSQL. To import the data it is needed to replace such dates with valid ones like &#34;1970-01-01 00:00:01&#34;.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Boolean fields&lt;/strong&gt;
+MySQL doesn’t support real boolean fields and instead uses tinyint. PostgreSQL, on the other hand, supports real boolean fields and doesn’t accept &#34;0&#34; or &#34;1&#34; as valid boolean values. Replacing &#34;0&#34; with “False&#34; and &#34;1&#34; with &#34;true” will help in this case.&lt;/li&gt;
+&lt;/ol&gt;</content>
+    </entry>
+    
+</feed>

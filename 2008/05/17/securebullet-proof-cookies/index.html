@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Secure/bullet proof cookies — Arthur Koziel</title>
+    <link rel="stylesheet" href="/master2.css" type="text/css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="/feeds/main.xml" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4143429-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+            'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+      })();
+    </script>
+</head>
+<body>
+    <p>
+        <a href="/">Home</a> |
+        <a href="/about/">About</a> | 
+        <a href="/projects/">Projects</a> |
+        <a href="/feeds/main.xml">RSS</a>
+    </p>
+    
+    <h1 id="header">Secure/bullet proof cookies</h1>
+    <p id="date">
+        Published 17th May 2008
+    </p>
+    <p>There seems to be a <a href="http://blog.fourspaces.com/2008/05/14/bullet-proof-cookies-why-bother/">discussion</a> about <a href="http://www.codeproject.com/KB/aspnet/BulletProofCookies.aspx">bullet proof cookies</a> lately and I'm quite surprised that most web developers haven't read the excellent "<a href="http://www.cse.msu.edu/~alexliu/publications/Cookie/cookie.pdf">A Secure Cookie Protocol</a>" research paper from Alex X. Liu.</p>
+
+<p>Here's a short summary of what services a bullet proof cookie should provide:</p>
+<ul>
+	<li><strong>Authentication</strong>
+    Verify that the client has been authenticated within a certain time period.</li>
+	<li>
+    	<strong>Confidentiality</strong>
+        <ul>
+    	    <li>
+    	        <strong>Low-level</strong>
+                Prevent any parties except the user and the server from reading the cookie data.
+            </li>
+    	    <li>
+    	        <strong>High-level</strong>
+                Prevent any parties except the server from reading the cookie data.
+            </li>
+        </ul>
+    </li>
+    <li><strong>Integrity</strong>
+    The server should be able to detect if a cookie has been modified.</li>
+    <li><strong>Anti-Replay</strong>
+    Stolen cookies should be detected as invalid.</li>
+</ul>
+
+<h3>Confidentiality</h3>
+<p>In my opinion, high-level confidentiality is unnecessary. I think Marcus R. Breese describes this best <a href="http://blog.fourspaces.com/2008/05/14/bullet-proof-cookies-why-bother/">in his blog</a>:</p>
+
+<blockquote>"Specifically, my rule of thumb is that if you don’t want a client to know
+the data, don't send it to them."</blockquote>
+
+<p>I totally agree with him and further think that cookies should be used for
+authentication only, and that the data should be stored in the database.</p>
+
+<h3>Example: Wordpress</h3>
+<p>Wordpress 2.5 introduced a similar structure for its cookies as the one proposed in the research paper. In Wordpress 2.5 cookies have the following structure:</p>
+
+<div class="highlight">
+<pre>user name|expiration time|HMAC(user name|expiration time, k)
+where k=HMAC(user name|expiration time, sk)
+and sk=secret server key</pre>
+</div>
+
+<p>Therefore a normal Wordpress cookie looks like this:</p>
+
+<div class="highlight">
+<pre>admin|1212093864|82436be3x303xaddd6fd31db338770a6</pre>
+</div>
+
+<p>There are two points which are different from the originally proposed cookie protocol from Alex X. Liu.</p>
+
+<p>The first one is that there's no data attached to this cookie - it's only used to authenticate the user. The second one is that there's no SSL session key attached.</p>
+
+<p>Removing the SSL session key was not a good (vulnerable to replay attacks) but necessary choice since most Wordpress installations run on non-SSL hosts.</p>
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/arthurkozielsblog/embed.js"></script><noscript><p><a href="http://disqus.com/forums/arthurkozielsblog/?url=ref">View the discussion thread.</a></p></noscript><p><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+</body>
+</html>

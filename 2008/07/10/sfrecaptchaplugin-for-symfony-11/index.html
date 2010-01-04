@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>sfReCaptchaPlugin for Symfony 1.1 — Arthur Koziel</title>
+    <link rel="stylesheet" href="/master2.css" type="text/css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="/feeds/main.xml" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4143429-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+            'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+      })();
+    </script>
+</head>
+<body>
+    <p>
+        <a href="/">Home</a> |
+        <a href="/about/">About</a> | 
+        <a href="/projects/">Projects</a> |
+        <a href="/feeds/main.xml">RSS</a>
+    </p>
+    
+    <h1 id="header">sfReCaptchaPlugin for Symfony 1.1</h1>
+    <p id="date">
+        Published 10th July 2008
+    </p>
+    <p>The <a href="http://trac.symfony-project.org/wiki/sfReCaptchaPlugin">sfReCaptchaPlugin</a> was just updated to be compatible with <a href="http://www.symfony-project.org/">Symfony</a> 1.1. The plugin was completely rewritten to use the new <a href="http://www.symfony-project.org/book/forms/1_1/en/">sfForm</a> class.</p>
+
+<p>The sfReCaptchaPlugin version for Symfony 1.0 is still available. The version number indicates the compatibility with Symfony versions:</p>
+<ul>
+	<li><em>1.0.x</em> for Symfony 1.0</li>
+	<li><em>1.1.x</em> for Symfony 1.1</li>
+</ul>
+
+<h3>Installation</h3>
+
+<p>Most of the documentation for the 1.1 version is still missing (including the plugin development stuff). I've yet to find out how to use the <em>plugin:install</em> task to correctly install a package from the Symfony PEAR channel. 
+Until then you can <a href="http://trac.symfony-project.org/attachment/wiki/sfReCaptchaPlugin/sfReCaptchaPlugin-1.1.0.tgz?format=raw">download the package directly from the Symfony wiki</a> and pass the file path to the task:</p>
+
+<div class="highlight"><pre>symfony plugin:install sfReCaptchaPlugin-1.1.0.tgz</pre></div>
+
+<p>Feel free to post bug reports to <a href="http://trac.symfony-project.org/newticket">Symfony's Trac</a>.</p>
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/arthurkozielsblog/embed.js"></script><noscript><p><a href="http://disqus.com/forums/arthurkozielsblog/?url=ref">View the discussion thread.</a></p></noscript><p><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+</body>
+</html>

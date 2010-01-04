@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>How to: LaTeX Beamer for TeX Live on OS X — Arthur Koziel</title>
+    <link rel="stylesheet" href="/master2.css" type="text/css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="/feeds/main.xml" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4143429-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+            'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+      })();
+    </script>
+</head>
+<body>
+    <p>
+        <a href="/">Home</a> |
+        <a href="/about/">About</a> | 
+        <a href="/projects/">Projects</a> |
+        <a href="/feeds/main.xml">RSS</a>
+    </p>
+    
+    <h1 id="header">How to: LaTeX Beamer for TeX Live on OS X</h1>
+    <p id="date">
+        Published 2nd June 2008
+    </p>
+    <p>Here you'll find instructions to install <a href="http://latex-beamer.sourceforge.net/">LaTeX Beamer</a>
+on a TeX Live system, which was installed via <a href="http://www.macports.org/">MacPorts</a>
+(but should also work on other installations if you adjust the TEXMF path).</p>
+
+<p>If you don't want to follow the whole instruction, be sure to check out the
+<a href="#bash-script">Bash script</a>, which installs LaTeX Beamer for you,
+at the end of this post.</p>
+
+<h3>Installation</h3>
+<p>First we need to download LaTeX Beamer and it's required dependencies
+(xcolor and pgf). The files can be downloaded on the
+<a href="https://sourceforge.net/project/showfiles.php?group_id=92412">corresponding website at SourceForge</a>
+or via these direct links:</p>
+
+<ul>
+	<li><a href="http://surfnet.dl.sourceforge.net/sourceforge/latex-beamer/latex-beamer-3.07.tar.gz">latex-beamer</a></li>
+	<li><a href="http://mesh.dl.sourceforge.net/sourceforge/latex-beamer/xcolor-2.00.tar.gz">xcolor</a></li>
+	<li><a href="http://switch.dl.sourceforge.net/sourceforge/latex-beamer/pgf-1.01.tar.gz">pgf</a></li>
+</ul>
+
+<p>Upon completion of the download the files need to be extracted:</p>
+
+<div class="highlight">
+<pre>tar xvzf latex-beamer-3.07.tar.gz
+tar xzvf xcolor-2.00.tar.gz
+tar xvzf pgf-1.01.tar.gz</pre>
+</div>
+
+<p>The <a href="http://www.tug.org/twg/tds/">TeX directory structure</a> has a
+specific hierarchy (the TEXMF tree) and various locations where it looks for its
+files. The default TEXMF tree on a MacPorts TeX Live installation is located at
+/opt/local/share/texmf/.</p>
+
+<p>To make use of the packages, we need to create the appropriate directories
+in the TEXMF tree, and place the previously extracted files there:</p>
+
+<div class="highlight">
+<pre>sudo mkdir -p /opt/local/share/texmf/tex/latex/<span class="o">{</span>beamer,pgf,xcolor<span class="o">}</span>
+
+sudo mv latex-beamer-3.07/* /opt/local/share/texmf/tex/latex/beamer/
+sudo mv pgf-1.01/* /opt/local/share/texmf/tex/latex/pgf/
+sudo mv xcolor/* /opt/local/share/texmf/tex/latex/xcolor/</pre>
+</div>
+
+<p>TeX does not recognize these new files right away since it uses a cache
+(the ls-R database) for efficiency reasons. The following command rebuilds the
+ls-R database:</p>
+
+<div class="highlight">
+<pre>sudo texhash</pre>
+</div>
+
+<img title="texhash" src="http://media.arthurkoziel.com/img/texhash.png" alt="" />
+
+<h3>Testing</h3>
+<p>We can copy&amp;paste the example from the <a href="http://latex-beamer.sourceforge.net/">LaTeX Beamer website</a>
+into a newly created file and compile it in order to test the installation:</p>
+
+<div class="highlight">
+<pre>pdflatex filename.tex</pre>
+</div>
+
+<p>This should, among various other file formats, create the presentation in
+the pdf format (filename.pdf).</p>
+
+<h3 id="bash-script">Bash script</h3>
+<p>Following a installation instruction step-by-step can be a very
+time-consuming task. But since I'm a huge fan of automating tasks, I wrote a
+small Bash script which basically performs all the steps mentioned above.
+(Note: You'll need to have wget installed.)</p>
+
+<p><a href="latexbeamer_texlive.sh">Download the Bash script here</a>.</p>
+
+<p>Don't forget to make the file executeable:</p>
+
+<div class="highlight">
+<pre>chmod u+x latexbeamer_texlive.sh</pre>
+</div>
+
+<p>That's it. I hope the Bash script will be useful for some people.</p>
+
+<p>For further information on the TeX system, I recommend reading 
+<a href="http://www.ctan.org/installationadvice">Managing a one-person TeX system</a>.
+</p>
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/arthurkozielsblog/embed.js"></script><noscript><p><a href="http://disqus.com/forums/arthurkozielsblog/?url=ref">View the discussion thread.</a></p></noscript><p><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+</body>
+</html>

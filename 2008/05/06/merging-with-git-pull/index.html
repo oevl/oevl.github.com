@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Merging with git-pull — Arthur Koziel</title>
+    <link rel="stylesheet" href="/master2.css" type="text/css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="/feeds/main.xml" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4143429-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+            'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+      })();
+    </script>
+</head>
+<body>
+    <p>
+        <a href="/">Home</a> |
+        <a href="/about/">About</a> | 
+        <a href="/projects/">Projects</a> |
+        <a href="/feeds/main.xml">RSS</a>
+    </p>
+    
+    <h1 id="header">Merging with git-pull</h1>
+    <p id="date">
+        Published 6th May 2008
+    </p>
+    <p>The <a href="http://www.kernel.org/pub/software/scm/git/docs/git-pull.html">git-pull</a> command is basically a shortcut for:</p>
+
+<div class="highlight">
+<pre>git-fetch &amp;&amp; git-merge origin</pre>
+</div>
+
+<p>The fetch gets the changes from the remote repository, but does not merge them with your local checkout yet. You can examine these changes using <em>origin</em> as the reference, and merge them into your master branch.</p>
+
+<p>The <a href="http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html">git-fetch</a> part is optional. You can pass . (current directory) to it and merge local branches.</p>
+
+<div class="highlight">
+<pre>git-pull . refactor
+git-merge refactor</pre>
+</div>
+
+<p>Both commands will do the same: merge the refactor branch.</p>
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/arthurkozielsblog/embed.js"></script><noscript><p><a href="http://disqus.com/forums/arthurkozielsblog/?url=ref">View the discussion thread.</a></p></noscript><p><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+</body>
+</html>

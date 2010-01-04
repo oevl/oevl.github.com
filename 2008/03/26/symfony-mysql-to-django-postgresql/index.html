@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Symfony + MySQL to Django + PostgreSQL — Arthur Koziel</title>
+    <link rel="stylesheet" href="/master2.css" type="text/css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="/feeds/main.xml" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4143429-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+            'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+      })();
+    </script>
+</head>
+<body>
+    <p>
+        <a href="/">Home</a> |
+        <a href="/about/">About</a> | 
+        <a href="/projects/">Projects</a> |
+        <a href="/feeds/main.xml">RSS</a>
+    </p>
+    
+    <h1 id="header">Symfony + MySQL to Django + PostgreSQL</h1>
+    <p id="date">
+        Published 26th March 2008
+    </p>
+    <p>While recently migrating <a href="http://www.tschitschereengreen.com/">Tschitschereengreen.com</a> from <a href="http://www.symfony-project.org/">Symfony</a> to <a href="http://www.djangoproject.com/">Django</a> plus changing the database backend from <a href="http://www.mysql.com/">MySQL</a> to <a href="http://www.postgresql.com/">PostgreSQL</a>, there were mainly two tasks more time-consuming than I've had thought beforehand:</p>
+
+<h3>SQL dump</h3>
+<p>The old database used a latin1 encoding for the database fields and utf-8 as the server and client connection encoding. With these settings, even trying to get a correctly encoded database dump from <a href="http://www.phpmyadmin.net/">phpMyAdmin</a> is a bad idea.</p>
+
+<p>Using mysqldump with an explicitly specified character-set is much better:</p>
+
+<div class="highlight">
+<pre>mysqldump … –default-character-set<span class="o">=</span>latin1 –skip-set-charset dbname &gt; dump.sql</pre>
+</div>
+
+<h3>MySQL to PostgreSQL with JSON</h3>
+<p>After realizing that changing a MySQL dump to a valid PostgreSQL dump might take some time, Django’s ability to import and export database fixtures in JSON was a great alternative.</p>
+
+<p>There were, however, a few corrections needed in order to import the data in PostgreSQL:</p>
+<ol>
+	<li><strong>Date fields</strong>
+"0000-00-00 00:00:00" might be valid MySQL datetime value, but it ain’t so in PostgreSQL. To import the data it is needed to replace such dates with valid ones like "1970-01-01 00:00:01".</li>
+	<li><strong>Boolean fields</strong>
+MySQL doesn’t support real boolean fields and instead uses tinyint. PostgreSQL, on the other hand, supports real boolean fields and doesn’t accept "0" or "1" as valid boolean values. Replacing "0" with “False" and "1" with "true” will help in this case.</li>
+</ol>
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/arthurkozielsblog/embed.js"></script><noscript><p><a href="http://disqus.com/forums/arthurkozielsblog/?url=ref">View the discussion thread.</a></p></noscript><p><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+</body>
+</html>

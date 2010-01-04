@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Switching to Django, PostgreSQL and WebFaction — Arthur Koziel</title>
+    <link rel="stylesheet" href="/master2.css" type="text/css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="/feeds/main.xml" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4143429-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+            'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+      })();
+    </script>
+</head>
+<body>
+    <p>
+        <a href="/">Home</a> |
+        <a href="/about/">About</a> | 
+        <a href="/projects/">Projects</a> |
+        <a href="/feeds/main.xml">RSS</a>
+    </p>
+    
+    <h1 id="header">Switching to Django, PostgreSQL and WebFaction</h1>
+    <p id="date">
+        Published 18th August 2008
+    </p>
+    <p>The blog is now powered by a custom Django application instead of Wordpress.</p>
+
+<p>Most of the URI's stay the same, only the <a href="http://arthurkoziel.com/feeds/entries/">feed address has changed</a>. Be sure to update your feed reader if you want to read more about, well... stuff I do.</p>
+
+<p>Comments now use <a href="http://code.google.com/p/django-threadedcomments/">django-threadedcomments</a>, which enables the possibility of replying to specific comments and displaying them in a tree-like manner.</p>
+
+<p>While migrating the entries and comments from Wordpress (<a href="http://jannisleidel.com/">Jannis</a> wrote a <a href="http://dpaste.de/195/">little script</a> for that, which works great with a few adjustments), I also took the chance to switch the database system from MySQL to PostgreSQL. There's no particular reason why I switched to Postgres, MySQL is still a good database system, I just wanted to try something new.</p>
+
+<h3>Hosting</h3>
+<p>Since <a href="http://www.dreamhost.com/">Dreamhost</a>, the old hosting provider, is just horrible for running Django applications (look at the low <a href="http://djangofriendly.com/hosts/dreamhost/">DjangoFriendly score</a>), I made the switch to <a href="http://www.webfaction.com/">WebFaction</a>.</p>
+
+<p>I'm very happy with their hosting so far. The blog runs on a recent Django trunk checkout and is served by Apache2 with mod_wsgi. Deploying the Django project only took me about 30 minutes yesterday evening (and this was the first time I've used WebFaction).</p>
+
+<h3>Bugs</h3>
+
+<p>If you encounter problems feel free to send me an email or write a comment under this entry.</p>
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/arthurkozielsblog/embed.js"></script><noscript><p><a href="http://disqus.com/forums/arthurkozielsblog/?url=ref">View the discussion thread.</a></p></noscript><p><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Handling static files with Django — Arthur Koziel</title>
+    <link rel="stylesheet" href="/master2.css" type="text/css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="/feeds/main.xml" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4143429-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+            'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+      })();
+    </script>
+</head>
+<body>
+    <p>
+        <a href="/">Home</a> |
+        <a href="/about/">About</a> | 
+        <a href="/projects/">Projects</a> |
+        <a href="/feeds/main.xml">RSS</a>
+    </p>
+    
+    <h1 id="header">Handling static files with Django</h1>
+    <p id="date">
+        Published 2nd September 2008
+    </p>
+    <p>When I started developing in <a href="http://www.djangoproject.com/">Django</a>, I had absolutely no idea about how to handle static media files. The official documentation is very sparse on this particular topic and the only fact I got out of it is that Django shouldn't serve them directly as it is very inefficient and insecure (James Bennett <a href="http://www.b-list.org/weblog/2008/jun/23/media/">wrote a great post about this topic</a>).</p>
+
+<p>I've learned a lot during the past months and in this post I'm going to explain how I handle static media files.</p>
+<h3>Development</h3>
+
+<p>You might've noticed the MEDIA_URL variable in your project's settings.py. It specifies the URL where the files should be served from. I prefer to create a <em>"static_media"</em> directory in the project's one and point the MEDIA_URL to it:</p>
+
+<div class="highlight"><pre><span class="n">MEDIA_URL</span> <span class="o">=</span> <span class="s">&#39;/static_media/&#39;</span>
+</pre></div>
+
+<p>In most cases it's okay to serve static files through Django during development. The following code-snippet will serve the <em>"static_media/"</em> directory through Django's static view.</p>
+
+<div class="highlight"><pre><span class="k">if</span> <span class="n">settings</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">:</span>
+    <span class="n">urlpatterns</span> <span class="o">+=</span> <span class="n">patterns</span><span class="p">(</span><span class="s">&#39;django.views.static&#39;</span><span class="p">,</span>
+    <span class="p">(</span><span class="s">r&#39;^static_media/(?P&lt;path&gt;.*)$&#39;</span><span class="p">,</span> 
+        <span class="s">&#39;serve&#39;</span><span class="p">,</span> <span class="p">{</span>
+        <span class="s">&#39;document_root&#39;</span><span class="p">:</span> <span class="s">&#39;/path/to/static_media&#39;</span><span class="p">,</span>
+        <span class="s">&#39;show_indexes&#39;</span><span class="p">:</span> <span class="bp">True</span> <span class="p">}),)</span>
+</pre></div>
+
+<p>The <em>"static_media/"</em> directory is where you can put all your media files. When making use of them, make sure you output the MEDIA_URL before it. For example, to include a stylesheet in a template:</p>
+
+<div class="highlight"><pre><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;{{ MEDIA_URL }}base_min.css&quot;</span> <span class="na">type=</span><span class="s">&quot;text/css&quot;</span> <span class="na">media=</span><span class="s">&quot;screen&quot;</span><span class="nt">&gt;</span>
+</pre></div>
+<h3>Production</h3>
+
+<p>After you've uploaded the files to a server, make sure to adjust the settings.py file in your production environment and point the MEDIA_URL to the URL where the media files are.</p>
+
+<p>In my case, I pointed the MEDIA_URL to <em>"http://media.arthurkoziel.com/"</em> which is simply a directory served by an separate apache process.</p>
+
+<div class="highlight"><pre><span class="n">MEDIA_URL</span> <span class="o">=</span> <span class="s">&#39;http://media.example.org/&#39;</span>
+</pre></div>
+
+<p>Now your media files will be served by Django's static view in your development environment and though another webserver/process in the production environment.</p>
+
+<p>The above example with the css file will resolve into the following URL's:</p>
+
+<ul>
+<li><strong>Development</strong>: /static_media/base_min.css</li>
+<li><strong>Production</strong>: http://media.example.org/base_min.css</li>
+</ul>
+
+<p>Simply by changing the MEDIA_URL. Remember to sync your local static directory with your production one.</p>
+
+<p>That's it, I hope at least some people found this post useful.</p>
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/arthurkozielsblog/embed.js"></script><noscript><p><a href="http://disqus.com/forums/arthurkozielsblog/?url=ref">View the discussion thread.</a></p></noscript><p><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+</body>
+</html>

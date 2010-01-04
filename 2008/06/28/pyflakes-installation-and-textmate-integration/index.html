@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>PyFlakes installation and TextMate integration — Arthur Koziel</title>
+    <link rel="stylesheet" href="/master2.css" type="text/css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="/feeds/main.xml" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4143429-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+            'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+      })();
+    </script>
+</head>
+<body>
+    <p>
+        <a href="/">Home</a> |
+        <a href="/about/">About</a> | 
+        <a href="/projects/">Projects</a> |
+        <a href="/feeds/main.xml">RSS</a>
+    </p>
+    
+    <h1 id="header">PyFlakes installation and TextMate integration</h1>
+    <p id="date">
+        Published 28th June 2008
+    </p>
+    <p><a href="http://divmod.org/trac/wiki/DivmodPyflakes">PyFlakes</a> is a tool to identify common mistakes in Python source-code. This includes:</p>
+<ul>
+<li>Redefined functions</li>
+<li>Shadowed variables</li>
+<li>Unused and undefined names</li>
+<li>Unused or missing imports</li>
+<li>Variables referenced before assignment</li>
+</ul>
+
+<h3>Installation</h3>
+<p>Because of a few <a href="ttp://divmod.org/trac/log/trunk/Pyflakes">notable fixes</a> over the latest stable release (0.2.1) from October 2005, I'm going to describe how to install the latest trunk from the Subversion repository.</p>
+
+<p>The first thing we're going to do is a checkout in a directory called <em>pyflakes</em>:</p>
+
+<div class="highlight"><pre>svn co http://divmod.org/svn/Divmod/trunk/Pyflakes pyflakes
+</pre></div>
+
+<p>After that, we create the symbolic links to the Python site-packages directory and a binary path (here: <em>/usr/local/bin</em>).</p>
+
+<div class="highlight"><pre>ln -s <span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>/pyflakes/pyflakes SITE-PACKAGES-DIR/pyflakes
+ln -s <span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>/bin/pyflakes /usr/local/bin
+</pre></div>
+
+<p>The Python site-packages directory can be found by invoking the following command:</p>
+
+<div class="highlight"><pre>python -c <span class="s2">&quot;from distutils.sysconfig import get_python_lib; print get_python_lib()&quot;</span>
+</pre></div>
+
+<h3>TextMate integration</h3>
+
+<p>The Python bundle for <a href="http://macromates.com/">TextMate</a> includes the PyCheckMate script which has support for <a href="http://pychecker.sourceforge.net/">PyChecker</a>, <a href="http://www.logilab.org/857">PyLint</a> and PyFlakes. The bundle is installed in a default TextMate installation.</p>
+
+<img src="http://media.arthurkoziel.com/img/pyflakes-mate.png" alt="">
+
+<p>PyCheckMate automatically checks for and chooses one of the supported programs mentioned above. To change this, we can modify the <em>TM_PYCHECKER</em> variable in <em>~/.bash_profile</em>:</p>
+
+<div class="highlight"><pre><span class="nb">export </span><span class="nv">TM_PYCHECKER</span><span class="o">=</span>pylint
+</pre></div>
+
+<p>The supported values are:</p>
+<ul>
+<li>builtin (also used when no other checker is installed, only performs a syntax-check)</li>
+<li>pychecker</li>
+<li>pylint</li>
+<li>pyflakes</li>
+</ul>
+
+<p>Setting the variable is not needed when only PyFlakes is installed.</p>
+
+<p>To perform the check in TextMate, go to <em>Bundles</em> -> <em>Python</em> -> <em>Validate Syntax (PyCheckMate)</em> or press the shortcut <em>Ctrl-Shift-V</em>.</p>
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/arthurkozielsblog/embed.js"></script><noscript><p><a href="http://disqus.com/forums/arthurkozielsblog/?url=ref">View the discussion thread.</a></p></noscript><p><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></p>
+
+</body>
+</html>
